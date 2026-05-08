@@ -136,4 +136,3 @@ finally
 
 First, I wake up. Then I study.
 
-https://github.com/MohamedMadoui5195/Alislamiah-_net/blob/main/IMG_20260419_154411_853.mp4
