@@ -84,3 +84,54 @@ Though
 This city is freezing 🥶,
 I enjoyed it though 
 ونفس الإستعمال مع الآخرين
+
+5) LINKING WORDS (أدوات الربط)
+هي كلمات تربط بين الأفكار.
+🔹 1. الإضافة (Addition)
+
+and
+also
+in addition
+moreover
+مثال:
+
+I study and I work.
+Moreover, I exercise daily.
+
+🔹 2. السبب (Cause)
+
+because
+since
+as
+مثال:
+
+I stayed home because it rained.
+
+🔹 3. النتيجة (Result)
+
+so
+therefore
+as a result
+مثال:
+
+It was late, so I slept.
+
+🔹 4. التناقض (Contrast)
+
+but
+however
+although
+despite
+مثال:
+
+I am tired, but I will work.
+However, I agreed.
+
+🔹 5. الترتيب (Sequence)
+first
+then
+after that
+finally
+مثال:
+
+First, I wake up. Then I study.
