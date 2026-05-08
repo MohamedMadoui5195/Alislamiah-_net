@@ -55,3 +55,32 @@
 
 https://youtube.com/@mohamedmadoui5195?si=TP0w22joxMPmiX13
 
+Lesson two:
+1/Despite and inspite of 
+ادوات الربط(رغم أن/ بالرغم من)
+First:
+You should transfer the  verb to ground 
+Play. } Playing 
+Eat} eating 
+Win } wining 
+Example 
+
+Algeria won vs Argentina. Messi is number one 
+
+Despite 
+
+
+Despite Algeria wining vs Argentina Messi is number one 
+
+The same with Inspite of 
+
+There are also their synonyms
+Inspite infact of
+Despite infact of
+Although 
+Though 
+لها نفس الإستعمال ولكن لا يتأثر الفعل يبقى كما هو
+مثال:
+This city is freezing 🥶,
+I enjoyed it though 
+ونفس الإستعمال مع الآخرين
