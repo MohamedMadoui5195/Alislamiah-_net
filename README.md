@@ -1,4 +1,20 @@
-img src="IMG_20260306_112317_282.jpg" width="300">
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقعي</title>
+</head>
+<body style="margin:0; display:flex; justify-content:center; align-items:center; height:100vh; background:black;">
+
+  <img 
+    src="IMG_20260306_112317_282.jpg" 
+    alt="صورة"
+    style="max-width:100%; max-height:100%; border-radius:15px;"
+  >
+
+</body>
+</html>
 
 <!DOCTYPE html>
 <html lang="ar">
