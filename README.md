@@ -1,3 +1,5 @@
+img src="IMG_20260306_112317_282.jpg" width="300">
+
 <!DOCTYPE html>
 <html lang="ar">
 <head>
