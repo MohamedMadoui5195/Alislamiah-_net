@@ -139,6 +139,3 @@ finally
 
 First, I wake up. Then I study.
 
-<video width="300" controls>
-  <source src="IMG_20260419_154411_853.mp4" type="video/mp4">
-</video>
