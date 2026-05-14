@@ -188,11 +188,17 @@ The stem of the verb+Ed
 Irregular verbs:
 في الصورة
 Present perfect 
-To have in the present simple+the past participle of the 
+
+To have in the present simple+the past participle of the verb 
+
 Regular verbs:
+
 Past participle=to have+The verb+Ed
 Irregular verbs in the photo 
+
 Present continues:
+
 To Be+ Ground of the verb (the verb+ING)
 Past continues:
+
 Tobe in the past simple+Ground of the verb
