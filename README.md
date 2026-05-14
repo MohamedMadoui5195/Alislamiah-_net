@@ -150,164 +150,272 @@ flex:none;
 
 Lesson two:
 
+
 1/Despite and inspite of 
 
+
 ادوات الربط(رغم أن/ بالرغم من)
+
+
 First:
+
+
 
 You should transfer the  verb to ground 
 
+
+
 Play. } Playing 
+
+
 
 Eat} eating 
 
+
 Win } wining 
+
 
 Example 
 
+
+
 Algeria won vs Argentina. Messi is number one 
+
+
 
 Despite 
 
 
+
+
 Despite Algeria wining vs Argentina Messi is number one 
+
+
 
 The same with Inspite of 
 
+
+
 There are also their synonyms
 
+
+
 Inspite infact of
+
 Despite infact of
+
 Although 
+
 Though 
+
 
 لها نفس الإستعمال ولكن لا يتأثر الفعل يبقى كما هو
 
+
 مثال:
+
 
 This city is freezing 🥶,
 I enjoyed it though 
 
+
 ونفس الإستعمال مع الآخرين
 
+
+
 5) LINKING WORDS (أدوات الربط)
-6) 
+
+
+
 هي كلمات تربط بين الأفكار.
+
+
 🔹 1. الإضافة (Addition)
+
+
 
 and
 also
 in addition
 moreover
+
+
 مثال:
+
+
 
 I study and I work.
 Moreover, I exercise daily.
 
+
+
 🔹 2. السبب (Cause)
+
+
 
 because
 since
 as
+
+
 مثال:
+
+
 
 I stayed home because it rained.
 
+
+
 🔹 3. النتيجة (Result)
+
+
 
 so
 therefore
 as a result
+
+
 مثال:
+
+
 
 It was late, so I slept.
 
+
+
 🔹 4. التناقض (Contrast)
 
+
+
 but
+
 however
+
 although
+
 despite
+
+
 مثال:
+
 
 I am tired, but I will work.
 However, I agreed.
 
+
+
 🔹 5. الترتيب (Sequence)
+
+
 first
 then
 after that
 finally
+
+
 مثال:
+
 
 First, I wake up. Then I study.
 
+
 Tenses:
+
 
 1/Present simple :
 
+
 الحالة الأولى:
+
 
 I you We They } 
 
+
 stem of the verb 
+
 
 He she It} verb stem + s
 
+
 Example:
+
 
 
 I wake up early 
 
 
+
 الحالة الثانية:
+
 
 The verbs that ended by:
 
 
+
 X o s SS sh ch g..
+
 
 I you We They}
 
+
 Stem of the verb 
 
+
 He she It} the verb+ es
+
 
 3/
 
 The verbs that ended by y
 
+
 If there's a vowel before the y
+
 
 He she It} verb Plus s
 
+
+
 If there's a consonant 
+
+
 
 He she It}  we remove the y and we add ies
 
+
 2/future simple:
+
 
 The model verb Will + The verb stem  
 
+
 3/ past simple:
+
 
 1/Regular verbs :
 
+
 The stem of the verb+Ed
+
 (With All pronouns)
 
 Irregular verbs:
+
 في الصورة
+
 Present perfect 
+
 
 To have in the present simple+the past participle of the verb 
 
 Regular verbs:
 
+
 Past participle=to have+The verb+Ed
 Irregular verbs in the photo 
 
 Present continues:
+
 
 To Be+ Ground of the verb (the verb+ING)
 Past continues:
