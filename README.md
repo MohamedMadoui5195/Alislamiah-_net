@@ -148,18 +148,21 @@ flex:none;
 </body>
 </html>
 
-تابعونا على يوتيوب 
-
-https://youtube.com/@mohamedmadoui5195?si=TP0w22joxMPmiX13
-
 Lesson two:
+
 1/Despite and inspite of 
+
 ادوات الربط(رغم أن/ بالرغم من)
 First:
+
 You should transfer the  verb to ground 
+
 Play. } Playing 
+
 Eat} eating 
+
 Win } wining 
+
 Example 
 
 Algeria won vs Argentina. Messi is number one 
