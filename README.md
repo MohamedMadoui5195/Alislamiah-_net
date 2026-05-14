@@ -9,18 +9,38 @@
 <h1>مرحبا بكم في موقعي</h1>
 
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية.</p>
-تابعونا على يوتيوب 
-<div style="display:flex; gap:10px; padding:10px;">
+<div style="
+display:flex;
+justify-content:center;
+gap:10px;
+background:#2d3550;
+padding:15px;
+">
 
-<button onclick="document.body.style.background='white'">
-خلفية بيضاء
+<button onclick="document.body.style.background='white'" style="
+background:none;
+border:none;
+color:white;
+font-size:18px;
+">
+أبيض
 </button>
 
-<button onclick="document.body.style.background='#2d3550'">
-خلفية زرقاء
+<button onclick="document.body.style.background='#2d3550'" style="
+background:none;
+border:none;
+color:white;
+font-size:18px;
+">
+أزرق
 </button>
 
-<button onclick="window.location.href='https://youtube.com/@mohamedmadoui5195?si=EPBuBW4SAnwV2h7X'">
+<button onclick="window.location.href='https://youtube.com/@mohamedmadoui5195?si=EPBuBW4SAnwV2h7X'" style="
+background:none;
+border:none;
+color:white;
+font-size:18px;
+">
 يوتيوب
 </button>
 
