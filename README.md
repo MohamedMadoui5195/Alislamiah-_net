@@ -10,6 +10,7 @@
 
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
     الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية.</p>
+
 <div style="
 display:flex;
 justify-content:center;
@@ -19,7 +20,10 @@ padding:15px;
 flex-wrap:wrap;
 ">
 
-<button onclick="document.body.style.background='white'" style="
+<button onclick="
+document.body.style.background='white';
+document.body.style.color='black';
+" style="
 background:none;
 border:none;
 color:white;
@@ -29,7 +33,10 @@ cursor:pointer;
 أبيض
 </button>
 
-<button onclick="document.body.style.background='#2d3550'" style="
+<button onclick="
+document.body.style.background='#2d3550';
+document.body.style.color='white';
+" style="
 background:none;
 border:none;
 color:white;
