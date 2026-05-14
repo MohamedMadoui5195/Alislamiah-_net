@@ -49,34 +49,6 @@ cursor:pointer;
 <button onclick="window.location.href='https://youtube.com/@mohamedmadoui5195?si=EPBuBW4SAnwV2h7X'" style="
 background:none;
 border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-">
-يوتيوب
-</button>
-
-<button onclick="window.location.href='https://whatsapp.com/channel/0029VbCd4APEawdpGuhPeA0G'" style="
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-">
-واتساب
-</button>
-
-<button onclick="window.location.href='https://www.tiktok.com/@user31912672754551?_r=1&_t=ZS-96LucWHJg5x'" style="
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-">
-تيك توك
-</button>
-
-</div>
 
 <h2>Lesson one: if conditional</h2>
 
