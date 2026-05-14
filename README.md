@@ -102,6 +102,51 @@ cursor:pointer;
 
 </div>
 
+<button onclick="
+window.location.href='https://www.dzexams.com/uploads/sujets/officiels/bac/2023/dzexams-bac-anglais-638929.pdf';
+"
+style="
+flex:none;
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+">
+نماذج 2023
+</button>
+
+<button onclick="
+window.location.href='https://www.dzexams.com/uploads/sujets/officiels/bac/2024/dzexams-bac-anglais-882145.pdf';
+"
+style="
+flex:none;
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+">
+نماذج 2024
+</button>
+
+<button onclick="
+window.location.href='https://www.dzexams.com/uploads/sujets/officiels/bac/2025/dzexams-bac-anglais-1982304.pdf';
+"
+style="
+flex:none;
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+">
+نماذج 2025
+</button>
+
 <h1>مرحبا بكم في موقعي</h1>
 
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
