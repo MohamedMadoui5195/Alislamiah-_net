@@ -139,3 +139,60 @@ finally
 
 First, I wake up. Then I study.
 
+Tenses:
+1/Present simple :
+الحالة الأولى:
+I you We They } 
+
+stem of the verb 
+
+He she It} verb stem + s
+
+Example:
+
+I wake up early 
+He likes 
+الحالة الثانية:
+The verbs that ended by:
+
+X o s SS sh ch g..
+
+I you We They}
+Stem of the verb 
+
+He she It} the verb+ es
+
+3/
+
+The verbs that ended by y
+
+If there's a vowel before the y
+
+He she It} verb Plus s
+
+If there's a consonant 
+
+He she It}  we remove the y and we add ies
+
+2/future simple:
+
+The model verb Will + The verb stem  
+
+3/ past simple:
+
+1/Regular verbs :
+
+The stem of the verb+Ed
+(With All pronouns)
+
+Irregular verbs:
+في الصورة
+Present perfect 
+To have in the present simple+the past participle of the 
+Regular verbs:
+Past participle=to have+The verb+Ed
+Irregular verbs in the photo 
+Present continues:
+To Be+ Ground of the verb (the verb+ING)
+Past continues:
+Tobe in the past simple+Ground of the verb
