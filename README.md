@@ -237,8 +237,11 @@ finally
 First, I wake up. Then I study.
 
 Tenses:
+
 1/Present simple :
+
 الحالة الأولى:
+
 I you We They } 
 
 stem of the verb 
@@ -247,14 +250,19 @@ He she It} verb stem + s
 
 Example:
 
+
 I wake up early 
-He likes 
+
+
 الحالة الثانية:
+
 The verbs that ended by:
+
 
 X o s SS sh ch g..
 
 I you We They}
+
 Stem of the verb 
 
 He she It} the verb+ es
