@@ -306,4 +306,4 @@ Present continues:
 To Be+ Ground of the verb (the verb+ING)
 Past continues:
 
-Tobe in the past simple+Ground of the verb
+To be in the past simple+Ground of the verb
