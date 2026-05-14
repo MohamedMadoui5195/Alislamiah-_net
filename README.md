@@ -1,4 +1,50 @@
 <!DOCTYPE html>
+
+<button onclick="
+window.location.href='https://www.dzexams.com/uploads/sujets/officiels/bac/2023/dzexams-bac-anglais-638929.pdf';
+"
+style="
+flex:none;
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+">
+نماذج 2023
+</button>
+
+<button onclick="
+window.location.href='https://www.dzexams.com/uploads/sujets/officiels/bac/2024/dzexams-bac-anglais-882145.pdf';
+"
+style="
+flex:none;
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+">
+نماذج 2024
+</button>
+
+<button onclick="
+window.location.href='https://www.dzexams.com/uploads/sujets/officiels/bac/2025/dzexams-bac-anglais-1982304.pdf';
+"
+style="
+flex:none;
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+">
+نماذج 2025
+</button>
+
 <div style="
 display:flex;
 overflow-x:auto;
