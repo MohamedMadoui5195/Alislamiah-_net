@@ -103,6 +103,10 @@ flex:none;
 
 </div>
 
+<video controls width="300">
+  <source src="IMG_20260514_215441_948.mp4" type="video/mp4">
+</video>
+
 <h1>مرحبا بكم في موقعي</h1>
 
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
