@@ -1,16 +1,4 @@
 <!DOCTYPE html>
-<html lang="ar">
-<head>
-<meta charset="UTF-8">
-<title>موقعي</title>
-</head>
-<body>
-
-<h1>مرحبا بكم في موقعي</h1>
-
-<p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
-    الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية.</p>
-
 <div style="
 display:flex;
 justify-content:center;
@@ -23,7 +11,8 @@ flex-wrap:wrap;
 <button onclick="
 document.body.style.background='white';
 document.body.style.color='black';
-" style="
+"
+style="
 background:none;
 border:none;
 color:white;
@@ -36,7 +25,8 @@ cursor:pointer;
 <button onclick="
 document.body.style.background='#2d3550';
 document.body.style.color='white';
-" style="
+"
+style="
 background:none;
 border:none;
 color:white;
@@ -46,9 +36,71 @@ cursor:pointer;
 أزرق
 </button>
 
-<button onclick="window.location.href='https://youtube.com/@mohamedmadoui5195?si=EPBuBW4SAnwV2h7X'" style="
+<button onclick="
+window.location.href='https://youtube.com/@mohamedmadoui5195?si=EPBuBW4SAnwV2h7X';
+"
+style="
 background:none;
 border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+">
+يوتيوب
+</button>
+
+<button onclick="
+window.location.href='https://whatsapp.com/channel/0029VbCd4APEawdpGuhPeA0G';
+"
+style="
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+">
+واتساب
+</button>
+
+<button onclick="
+window.location.href='https://www.tiktok.com/@user31912672754551?_r=1&_t=ZS-96LucWHJg5x';
+"
+style="
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+">
+تيك توك
+</button>
+
+<button onclick="
+window.location.href='https://t.me/alislamiahmo45';
+"
+style="
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+">
+تيليجرام
+</button>
+
+</div>
+
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>موقعي</title>
+</head>
+<body>
+
+<h1>مرحبا بكم في موقعي</h1>
+
+<p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
+    الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية
 
 <h2>Lesson one: if conditional</h2>
 
