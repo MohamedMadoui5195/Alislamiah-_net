@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <div style="
 display:flex;
-justify-content:center;
+overflow-x:auto;
+white-space:nowrap;
 gap:10px;
 background:#2d3550;
 padding:15px;
-flex-wrap:wrap;
 ">
 
 <button onclick="
@@ -13,11 +13,13 @@ document.body.style.background='white';
 document.body.style.color='black';
 "
 style="
+min-width:100px;
 background:none;
 border:none;
 color:white;
 font-size:18px;
 cursor:pointer;
+flex:none;
 ">
 أبيض
 </button>
@@ -27,11 +29,13 @@ document.body.style.background='#2d3550';
 document.body.style.color='white';
 "
 style="
+min-width:100px;
 background:none;
 border:none;
 color:white;
 font-size:18px;
 cursor:pointer;
+flex:none;
 ">
 أزرق
 </button>
@@ -40,11 +44,13 @@ cursor:pointer;
 window.location.href='https://youtube.com/@mohamedmadoui5195?si=EPBuBW4SAnwV2h7X';
 "
 style="
+min-width:100px;
 background:none;
 border:none;
 color:white;
 font-size:18px;
 cursor:pointer;
+flex:none;
 ">
 يوتيوب
 </button>
@@ -53,11 +59,13 @@ cursor:pointer;
 window.location.href='https://whatsapp.com/channel/0029VbCd4APEawdpGuhPeA0G';
 "
 style="
+min-width:100px;
 background:none;
 border:none;
 color:white;
 font-size:18px;
 cursor:pointer;
+flex:none;
 ">
 واتساب
 </button>
@@ -66,11 +74,13 @@ cursor:pointer;
 window.location.href='https://www.tiktok.com/@user31912672754551?_r=1&_t=ZS-96LucWHJg5x';
 "
 style="
+min-width:100px;
 background:none;
 border:none;
 color:white;
 font-size:18px;
 cursor:pointer;
+flex:none;
 ">
 تيك توك
 </button>
@@ -79,23 +89,18 @@ cursor:pointer;
 window.location.href='https://t.me/alislamiahmo45';
 "
 style="
+min-width:100px;
 background:none;
 border:none;
 color:white;
 font-size:18px;
 cursor:pointer;
+flex:none;
 ">
 تيليجرام
 </button>
 
 </div>
-
-<html lang="ar">
-<head>
-<meta charset="UTF-8">
-<title>موقعي</title>
-</head>
-<body>
 
 <h1>مرحبا بكم في موقعي</h1>
 
