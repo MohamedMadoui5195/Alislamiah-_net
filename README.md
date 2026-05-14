@@ -110,9 +110,8 @@ flex:none;
     
 
 <video controls autoplay muted style="width:100%; max-width:600px; border-radius:15px;">
-  <source src="./IMG_20260419_223007_188.mp4" type="video/mp4">
-</video>
-
+  
+<video src="IMG_20260419_223007_188.mp4" controls></video>
 
 
 <h2>Lesson one: if conditional</h2>
