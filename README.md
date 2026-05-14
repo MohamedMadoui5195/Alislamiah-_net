@@ -10,14 +10,33 @@
 
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية.</p>
 تابعونا على يوتيوب 
-<select onchange="document.body.style.background=this.value">
+<select onchange="changeOption(this.value)">
 
-<option value='white'>أبيض</option>
+<option value="">اختر</option>
 
-<option value='#2d3550'>أزرق داكن</option>
+<option value="white">خلفية بيضاء</option>
+
+<option value="#2d3550">خلفية زرقاء داكنة</option>
+
+<option value="youtube">يوتيوب</option>
 
 </select>
-https://youtube.com/@mohamedmadoui5195?si=MnMeKVei5gMSfRMN
+
+<script>
+
+function changeOption(value){
+
+if(value === "youtube"){
+window.location.href="https://youtube.com/@mohamedmadoui5195?si=EPBuBW4SAnwV2h7X";
+}
+
+else{
+document.body.style.background=value;
+}
+
+}
+
+</script>
 
 <h2>Lesson one: if conditional</h2>
 
