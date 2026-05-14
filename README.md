@@ -10,7 +10,13 @@
 
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية.</p>
 تابعونا على يوتيوب 
+<select onchange="document.body.style.background=this.value">
 
+<option value='white'>أبيض</option>
+
+<option value='#2d3550'>أزرق داكن</option>
+
+</select>
 https://youtube.com/@mohamedmadoui5195?si=MnMeKVei5gMSfRMN
 
 <h2>Lesson one: if conditional</h2>
