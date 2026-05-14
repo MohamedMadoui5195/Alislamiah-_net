@@ -175,14 +175,19 @@ Despite Algeria wining vs Argentina Messi is number one
 The same with Inspite of 
 
 There are also their synonyms
+
 Inspite infact of
 Despite infact of
 Although 
 Though 
+
 لها نفس الإستعمال ولكن لا يتأثر الفعل يبقى كما هو
+
 مثال:
+
 This city is freezing 🥶,
 I enjoyed it though 
+
 ونفس الإستعمال مع الآخرين
 
 5) LINKING WORDS (أدوات الربط)
