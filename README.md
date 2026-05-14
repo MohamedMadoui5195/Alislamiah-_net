@@ -4,8 +4,8 @@ display:flex;
 overflow-x:auto;
 white-space:nowrap;
 gap:10px;
-background:#2d3550;
 padding:15px;
+background:#2d3550;
 ">
 
 <button onclick="
@@ -13,13 +13,13 @@ document.body.style.background='white';
 document.body.style.color='black';
 "
 style="
+flex:none;
 min-width:100px;
 background:none;
 border:none;
 color:white;
 font-size:18px;
 cursor:pointer;
-flex:none;
 ">
 أبيض
 </button>
@@ -29,13 +29,13 @@ document.body.style.background='#2d3550';
 document.body.style.color='white';
 "
 style="
+flex:none;
 min-width:100px;
 background:none;
 border:none;
 color:white;
 font-size:18px;
 cursor:pointer;
-flex:none;
 ">
 أزرق
 </button>
@@ -44,13 +44,13 @@ flex:none;
 window.location.href='https://youtube.com/@mohamedmadoui5195?si=EPBuBW4SAnwV2h7X';
 "
 style="
+flex:none;
 min-width:100px;
 background:none;
 border:none;
 color:white;
 font-size:18px;
 cursor:pointer;
-flex:none;
 ">
 يوتيوب
 </button>
@@ -59,13 +59,13 @@ flex:none;
 window.location.href='https://whatsapp.com/channel/0029VbCd4APEawdpGuhPeA0G';
 "
 style="
+flex:none;
 min-width:100px;
 background:none;
 border:none;
 color:white;
 font-size:18px;
 cursor:pointer;
-flex:none;
 ">
 واتساب
 </button>
@@ -74,13 +74,13 @@ flex:none;
 window.location.href='https://www.tiktok.com/@user31912672754551?_r=1&_t=ZS-96LucWHJg5x';
 "
 style="
+flex:none;
 min-width:100px;
 background:none;
 border:none;
 color:white;
 font-size:18px;
 cursor:pointer;
-flex:none;
 ">
 تيك توك
 </button>
@@ -89,13 +89,13 @@ flex:none;
 window.location.href='https://t.me/alislamiahmo45';
 "
 style="
+flex:none;
 min-width:100px;
 background:none;
 border:none;
 color:white;
 font-size:18px;
 cursor:pointer;
-flex:none;
 ">
 تيليجرام
 </button>
