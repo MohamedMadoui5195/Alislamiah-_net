@@ -108,6 +108,10 @@ flex:none;
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
     الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية
 
+<video width="100%" controls>
+  <source src="IMG_20260419_223007_188.mp4" type="video/mp4">
+</video>
+
 <h2>Lesson one: if conditional</h2>
 
 <p>I look</p>
