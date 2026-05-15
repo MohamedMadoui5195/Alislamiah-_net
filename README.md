@@ -133,17 +133,7 @@ flex:none;
 نموذج 5
 </button>
 
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'">
-
-<div style="text-align:center;">
-
-<div style="
-color:red;
-font-size:35px;
-margin-bottom:20px;
-">
-شعبة لغات أجنبية
-</div>
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3
 
 <div style="
 display:flex;
@@ -151,6 +141,7 @@ justify-content:center;
 gap:10px;
 overflow-x:auto;
 white-space:nowrap;
+padding:15px;
 ">
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'">
@@ -164,8 +155,6 @@ white-space:nowrap;
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/NW1xNW1DZkd5Ry9IMnN5djdmNllmZz09'">
 نموذج 3
 </button>
-
-</div>
 
 </div>
 
