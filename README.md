@@ -133,6 +133,18 @@ flex:none;
 نموذج 5
 </button>
 
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'">
+نماذج شعبة لغات أجنبية 1
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/a0ZRWVBKWk9CdFp1a0owbTYyenBSUT09'">
+نماذج شعبة لغات أجنبية 2
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/NW1xNW1DZkd5Ry9IMnN5djdmNllmZz09'">
+نماذج شعبة لغات أجنبية 3
+</button>
+
 الدروس الخصوصية :
 
 <h2>Lesson one: if conditional</h2>
