@@ -141,7 +141,7 @@ overflow-x:auto;
 white-space:nowrap;
 gap:10px;
 padding:15px;
-background:#2d3550;
+background:red;
 align-items:center;
 ">
 
