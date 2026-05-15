@@ -136,32 +136,36 @@ flex:none;
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'">
 
 <div style="
+background:red;
+padding:15px;
+">
+
+<div style="
+color:white;
+font-size:22px;
+margin-bottom:15px;
+">
+نماذج شعبة لغات أجنبية
+</div>
+
+<div style="
 display:flex;
 overflow-x:auto;
 white-space:nowrap;
 gap:10px;
-padding:15px;
-background:red;
-align-items:center;
 ">
-
-<span style="
-color:white;
-font-size:20px;
-flex:none;
-">
-نماذج شعبة لغات أجنبية
-</span>
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'"
 style="
 flex:none;
 min-width:100px;
-background:none;
+background:white;
 border:none;
-color:white;
+color:red;
 font-size:18px;
+padding:10px;
 cursor:pointer;
+border-radius:10px;
 ">
 نموذج 1
 </button>
@@ -170,11 +174,13 @@ cursor:pointer;
 style="
 flex:none;
 min-width:100px;
-background:none;
+background:white;
 border:none;
-color:white;
+color:red;
 font-size:18px;
+padding:10px;
 cursor:pointer;
+border-radius:10px;
 ">
 نموذج 2
 </button>
@@ -183,14 +189,18 @@ cursor:pointer;
 style="
 flex:none;
 min-width:100px;
-background:none;
+background:white;
 border:none;
-color:white;
+color:red;
 font-size:18px;
+padding:10px;
 cursor:pointer;
+border-radius:10px;
 ">
 نموذج 3
 </button>
+
+</div>
 
 </div>
 
