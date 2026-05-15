@@ -137,15 +137,19 @@ flex:none;
 
 <div style="background:red;padding:15px;">
 
-<p style="color:white;font-size:22px;">
-نماذج شعبة لغات أجنبية:
-</p>
+<div style="
+color:white;
+font-size:22px;
+margin-bottom:15px;
+">
+شعبة لغات أجنبية
+</div>
 
 <div style="
 display:flex;
 overflow-x:auto;
-gap:10px;
 white-space:nowrap;
+gap:10px;
 ">
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'"
