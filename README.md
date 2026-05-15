@@ -138,21 +138,18 @@ flex:none;
 <div style="
 background:red;
 padding:15px;
-">
-
-<div style="
 color:white;
 font-size:22px;
-margin-bottom:15px;
 ">
-نماذج شعبة لغات أجنبية
-</div>
+
+نماذج شعبة لغات أجنبية:
 
 <div style="
 display:flex;
 overflow-x:auto;
 white-space:nowrap;
 gap:10px;
+margin-top:15px;
 ">
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'"
@@ -164,8 +161,8 @@ border:none;
 color:red;
 font-size:18px;
 padding:10px;
-cursor:pointer;
 border-radius:10px;
+cursor:pointer;
 ">
 نموذج 1
 </button>
@@ -179,8 +176,8 @@ border:none;
 color:red;
 font-size:18px;
 padding:10px;
-cursor:pointer;
 border-radius:10px;
+cursor:pointer;
 ">
 نموذج 2
 </button>
@@ -194,8 +191,8 @@ border:none;
 color:red;
 font-size:18px;
 padding:10px;
-cursor:pointer;
 border-radius:10px;
+cursor:pointer;
 ">
 نموذج 3
 </button>
