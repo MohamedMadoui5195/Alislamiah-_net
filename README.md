@@ -133,8 +133,6 @@ flex:none;
 نموذج 5
 </button>
 
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3
-
 <div style="
 display:flex;
 justify-content:center;
