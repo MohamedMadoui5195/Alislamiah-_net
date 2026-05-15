@@ -5,7 +5,7 @@ display:flex;
 overflow-x:auto;
 white-space:nowrap;
 gap:10px;
-background:#2d3550;
+background:red;
 padding:15px;
 ">
 
