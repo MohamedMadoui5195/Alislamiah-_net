@@ -149,6 +149,7 @@ overflow-x:auto;
 white-space:nowrap;
 gap:10px;
 padding:15px;
+justify-content:center;
 ">
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'"
