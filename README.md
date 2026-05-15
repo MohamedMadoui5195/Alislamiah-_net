@@ -134,16 +134,65 @@ flex:none;
 </button>
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'">
-نماذج شعبة لغات أجنبية 1
+
+<div style="
+display:flex;
+overflow-x:auto;
+white-space:nowrap;
+gap:10px;
+padding:15px;
+background:#2d3550;
+align-items:center;
+">
+
+<span style="
+color:white;
+font-size:20px;
+flex:none;
+">
+نماذج شعبة لغات أجنبية
+</span>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'"
+style="
+flex:none;
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+">
+نموذج 1
 </button>
 
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/a0ZRWVBKWk9CdFp1a0owbTYyenBSUT09'">
-نماذج شعبة لغات أجنبية 2
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/a0ZRWVBKWk9CdFp1a0owbTYyenBSUT09'"
+style="
+flex:none;
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+">
+نموذج 2
 </button>
 
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/NW1xNW1DZkd5Ry9IMnN5djdmNllmZz09'">
-نماذج شعبة لغات أجنبية 3
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/NW1xNW1DZkd5Ry9IMnN5djdmNllmZz09'"
+style="
+flex:none;
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+">
+نموذج 3
 </button>
+
+</div>
 
 الدروس الخصوصية :
 
