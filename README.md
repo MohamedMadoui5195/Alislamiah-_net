@@ -135,64 +135,51 @@ flex:none;
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'">
 
-<div style="
-background:red;
-padding:15px;
-color:white;
-font-size:22px;
-">
+<div style="background:red;padding:15px;">
 
+<p style="color:white;font-size:22px;">
 نماذج شعبة لغات أجنبية:
+</p>
 
 <div style="
 display:flex;
 overflow-x:auto;
-white-space:nowrap;
 gap:10px;
-margin-top:15px;
+white-space:nowrap;
 ">
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'"
 style="
-flex:none;
 min-width:100px;
-background:white;
-border:none;
-color:red;
-font-size:18px;
 padding:10px;
+border:none;
 border-radius:10px;
-cursor:pointer;
+font-size:18px;
+flex:none;
 ">
 نموذج 1
 </button>
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/a0ZRWVBKWk9CdFp1a0owbTYyenBSUT09'"
 style="
-flex:none;
 min-width:100px;
-background:white;
-border:none;
-color:red;
-font-size:18px;
 padding:10px;
+border:none;
 border-radius:10px;
-cursor:pointer;
+font-size:18px;
+flex:none;
 ">
 نموذج 2
 </button>
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/NW1xNW1DZkd5Ry9IMnN5djdmNllmZz09'"
 style="
-flex:none;
 min-width:100px;
-background:white;
-border:none;
-color:red;
-font-size:18px;
 padding:10px;
+border:none;
 border-radius:10px;
-cursor:pointer;
+font-size:18px;
+flex:none;
 ">
 نموذج 3
 </button>
