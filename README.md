@@ -151,6 +151,46 @@ width:100%;
 overflow-x:auto;
 ">
 
+<div style="
+display:flex;
+overflow-x:auto;
+white-space:nowrap;
+gap:10px;
+padding:15px;
+">
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'"
+style="flex:none;min-width:120px;padding:10px;">
+نموذج 1
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/a0ZRWVBKWk9CdFp1a0owbTYyenBSUT09'"
+style="flex:none;min-width:120px;padding:10px;">
+نموذج 2
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/NW1xNW1DZkd5Ry9IMnN5djdmNllmZz09'"
+style="flex:none;min-width:120px;padding:10px;">
+نموذج 3
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/eGN4V1lrelVEeEIzelo3UGpBYlkrQT09'"
+style="flex:none;min-width:120px;padding:10px;">
+نموذج 4
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/eUdYNUJabEYzdDREci85bGxDM3Fzdz09'"
+style="flex:none;min-width:120px;padding:10px;">
+نموذج 5
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/WUtCOFhUME84OVMzSWEzM3hNN3JuUT09'"
+style="flex:none;min-width:120px;padding:10px;">
+نموذج 6
+</button>
+
+</div>
+
 الدروس الخصوصية :
 
 <h2>Lesson one: if conditional</h2>
