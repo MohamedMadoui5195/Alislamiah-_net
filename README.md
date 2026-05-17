@@ -147,6 +147,8 @@ style="flex:none; min-width:120px;">
 نموذج 5
 </button>
 
+<h1> نماذج شعبة لغات أجنبية </h1>
+
 </div>
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'"
