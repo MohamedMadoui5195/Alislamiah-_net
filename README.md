@@ -111,45 +111,36 @@ flex:none;
 
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
     الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية 
-    
-    
-<div style="
+
+    <div style="
 display:flex;
-overflow-x:auto;
-white-space:nowrap;
+justify-content:center;
 gap:10px;
 padding:15px;
+flex-wrap:wrap;
 ">
 
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/U0ZGY2VRekl4TG82UlhWZTc3NW93Zz09'"
-style="flex:none; min-width:120px;">
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/U0ZGY2VRekl4TG82UlhWZTc3NW93Zz09'">
 نموذج 1
 </button>
 
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/MWhaY3hYUFRyN0ltMjhUcUZ3c1BQdz09'"
-style="flex:none; min-width:120px;">
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/MWhaY3hYUFRyN0ltMjhUcUZ3c1BQdz09'">
 نموذج 2
 </button>
 
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/b2xNckxQSyszS01UcVhvZmsrYXozZz09'"
-style="flex:none; min-width:120px;">
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/b2xNckxQSyszS01UcVhvZmsrYXozZz09'">
 نموذج 3
 </button>
 
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/U1oyS2dkMU5kcnN1TzVTZ0FJTjlDQT09'"
-style="flex:none; min-width:120px;">
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/U1oyS2dkMU5kcnN1TzVTZ0FJTjlDQT09'">
 نموذج 4
 </button>
 
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/Lys1Rk5MOW1sbGxmRXRzUTVjME5OUT09'"
-style="flex:none; min-width:120px;">
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/Lys1Rk5MOW1sbGxmRXRzUTVjME5OUT09'">
 نموذج 5
 </button>
 
-<div style="
-width:100%;
-overflow-x:auto;
-">
+</div>
 
 <div style="
 display:flex;
