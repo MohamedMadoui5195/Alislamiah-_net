@@ -151,43 +151,6 @@ width:100%;
 overflow-x:auto;
 ">
 
-<div style="
-display:flex;
-flex-wrap:nowrap;
-gap:10px;
-white-space:nowrap;
-min-width:max-content;
-padding:15px;
-">
-
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'">
-نموذج 1
-</button>
-
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/a0ZRWVBKWk9CdFp1a0owbTYyenBSUT09'">
-نموذج 2
-</button>
-
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/NW1xNW1DZkd5Ry9IMnN5djdmNllmZz09'">
-نموذج 3
-</button>
-
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/eGN4V1lrelVEeEIzelo3UGpBYlkrQT09'">
-نموذج 4
-</button>
-
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/eUdYNUJabEYzdDREci85bGxDM3Fzdz09'">
-نموذج 5
-</button>
-
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/WUtCOFhUME84OVMzSWEzM3hNN3JuUT09'">
-نموذج 6
-</button>
-
-</div>
-
-</div>
-
 الدروس الخصوصية :
 
 <h2>Lesson one: if conditional</h2>
