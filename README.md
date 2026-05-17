@@ -120,6 +120,8 @@ padding:15px;
 flex-wrap:wrap;
 ">
 
+<h1>شعبة العلوم التجريبية <h1>
+
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/U0ZGY2VRekl4TG82UlhWZTc3NW93Zz09'">
 نموذج 1
 </button>
@@ -149,6 +151,8 @@ white-space:nowrap;
 gap:10px;
 padding:15px;
 ">
+
+ <h2>شعبة لغات أجنبية<h2>
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'"
 style="flex:none;min-width:120px;padding:10px;">
