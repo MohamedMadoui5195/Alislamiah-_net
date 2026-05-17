@@ -114,26 +114,6 @@ flex:none;
 
   <h1>نماذج شعبة العلوم التجريبية<h1>
     
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/U0ZGY2VRekl4TG82UlhWZTc3NW93Zz09'">
-نموذج 1
-</button>
-
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/MWhaY3hYUFRyN0ltMjhUcUZ3c1BQdz09'">
-نموذج 2
-</button>
-
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/b2xNckxQSyszS01UcVhvZmsrYXozZz09'">
-نموذج 3
-</button>
-
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/U1oyS2dkMU5kcnN1TzVTZ0FJTjlDQT09'">
-نموذج 4
-</button>
-
-<button onclick="window.location.href='https://www.dzexams.com/ar/annales/Lys1Rk5MOW1sbGxmRXRzUTVjME5OUT09'">
-نموذج 5
-</button>
-
 <div style="
 display:flex;
 overflow-x:auto;
@@ -141,6 +121,33 @@ white-space:nowrap;
 gap:10px;
 padding:15px;
 ">
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/U0ZGY2VRekl4TG82UlhWZTc3NW93Zz09'"
+style="flex:none; min-width:120px;">
+نموذج 1
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/MWhaY3hYUFRyN0ltMjhUcUZ3c1BQdz09'"
+style="flex:none; min-width:120px;">
+نموذج 2
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/b2xNckxQSyszS01UcVhvZmsrYXozZz09'"
+style="flex:none; min-width:120px;">
+نموذج 3
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/U1oyS2dkMU5kcnN1TzVTZ0FJTjlDQT09'"
+style="flex:none; min-width:120px;">
+نموذج 4
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/Lys1Rk5MOW1sbGxmRXRzUTVjME5OUT09'"
+style="flex:none; min-width:120px;">
+نموذج 5
+</button>
+
+</div>
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'"
 style="flex:none;min-width:120px;padding:10px;">
