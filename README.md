@@ -201,7 +201,7 @@ padding:15px;
 
 <button onclick="document.getElementById('lesson1').scrollIntoView();"
 style="
-min-width:150px;
+min-width:220px;
 background:none;
 border:none;
 color:white;
@@ -209,12 +209,12 @@ font-size:18px;
 cursor:pointer;
 flex:none;
 ">
-Lesson 1
+Lesson 1: if condition
 </button>
 
 <button onclick="document.getElementById('lesson2').scrollIntoView();"
 style="
-min-width:150px;
+min-width:260px;
 background:none;
 border:none;
 color:white;
@@ -222,12 +222,12 @@ font-size:18px;
 cursor:pointer;
 flex:none;
 ">
-Lesson 2
+Lesson 2: Despite and inspite of
 </button>
 
-<button onclick="document.getElementById('tenses').scrollIntoView();"
+<button onclick="document.getElementById('lesson3').scrollIntoView();"
 style="
-min-width:150px;
+min-width:220px;
 background:none;
 border:none;
 color:white;
@@ -235,7 +235,20 @@ font-size:18px;
 cursor:pointer;
 flex:none;
 ">
-Tenses
+Lesson 3: Linking words
+</button>
+
+<button onclick="document.getElementById('lesson4').scrollIntoView();"
+style="
+min-width:180px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+Lesson 4: Tenses
 </button>
 
 </div>
@@ -245,10 +258,14 @@ Lesson one: if conditional
 </h2>
 
 <h2 id="lesson2">
-Lesson two
+Despite and inspite of
 </h2>
 
-<h2 id="tenses">
+<h2 id="lesson3">
+Linking words
+</h2>
+
+<h2 id="lesson4">
 Tenses
 </h2>
 
