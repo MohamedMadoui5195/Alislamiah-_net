@@ -1,24 +1,16 @@
 <!DOCTYP
 
 <div style="
-display:flex;
-align-items:center;
-justify-content:space-between;
+text-align:center;
 background:#1f2940;
 padding:15px;
 ">
 
-<img src="Icon.png" width="70">
-
-<h1 style="
-color:white;
-margin:0;
-font-size:28px;
-">
-الإسلامية نت
-</h1>
+<img src="Icon.png" width="90">
 
 </div>
+
+
 
 <div style="
 display:flex;
