@@ -2,6 +2,14 @@
 
 <img src="icon.png" width="70">
 
+<head>
+
+<link rel="manifest" href="manifest.json">
+
+<meta name="theme-color" content="#ff0000">
+
+</head>
+
 <div style="
 display:flex;
 overflow-x:auto;
