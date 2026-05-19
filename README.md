@@ -186,6 +186,72 @@ style="flex:none;min-width:120px;padding:10px;">
 
 الدروس الخصوصية :
 
+<h1 style="text-align:center;">
+قائمة الدروس
+</h1>
+
+<div style="
+display:flex;
+overflow-x:auto;
+white-space:nowrap;
+gap:10px;
+background:#222;
+padding:15px;
+">
+
+<button onclick="document.getElementById('lesson1').scrollIntoView();"
+style="
+min-width:150px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+Lesson 1
+</button>
+
+<button onclick="document.getElementById('lesson2').scrollIntoView();"
+style="
+min-width:150px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+Lesson 2
+</button>
+
+<button onclick="document.getElementById('tenses').scrollIntoView();"
+style="
+min-width:150px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+Tenses
+</button>
+
+</div>
+
+<h2 id="lesson1">
+Lesson one: if conditional
+</h2>
+
+<h2 id="lesson2">
+Lesson two
+</h2>
+
+<h2 id="tenses">
+Tenses
+</h2>
+
 <h2>Lesson one: if conditional</h2>
 
 <p>I look</p>
