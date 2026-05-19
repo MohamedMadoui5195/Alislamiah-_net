@@ -3,10 +3,14 @@
 <div style="
 display:flex;
 align-items:center;
-padding:15px 20px;
+padding:10px;
 ">
 
-<img src="Icon.png" width="60">
+<img src="Icon.png" style="
+width:55px;
+height:55px;
+border-radius:12px;
+">
 
 </div>
 
