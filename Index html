@@ -1,0 +1,587 @@
+<!DOCTYP
+
+<img src="icon.png" width="70">
+
+<div style="
+display:flex;
+overflow-x:auto;
+white-space:nowrap;
+gap:10px;
+background:red;
+padding:15px;
+">
+
+<button onclick="
+document.body.style.background='white';
+document.body.style.color='black';
+"
+style="
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+أبيض
+</button>
+
+<button onclick="
+document.body.style.background='#2d3550';
+document.body.style.color='white';
+"
+style="
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+أزرق
+</button>
+
+<button onclick="
+window.location.href='https://youtube.com/@mohamedmadoui5195?si=EPBuBW4SAnwV2h7X';
+"
+style="
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+يوتيوب
+</button>
+
+<button onclick="
+window.location.href='https://whatsapp.com/channel/0029VbCd4APEawdpGuhPeA0G';
+"
+style="
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+واتساب
+</button>
+
+<button onclick="
+window.location.href='https://www.tiktok.com/@user31912672754551?_r=1&_t=ZS-96LucWHJg5x';
+"
+style="
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+تيك توك
+</button>
+
+<button onclick="
+window.location.href='https://t.me/alislamiahmo45';
+"
+style="
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+تيليجرام
+</button>
+
+</div>
+
+<video controls width="300">
+  <source src="IMG_20260514_215441_948.mp4" type="video/mp4">
+</video>
+
+<h1>مرحبا بكم في موقعي</h1>
+
+<p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
+    الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية 
+
+<div style="
+display:flex;
+justify-content:center;
+gap:10px;
+padding:15px;
+flex-wrap:wrap;
+">
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/U0ZGY2VRekl4TG82UlhWZTc3NW93Zz09'">
+نموذج 1
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/MWhaY3hYUFRyN0ltMjhUcUZ3c1BQdz09'">
+نموذج 2
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/b2xNckxQSyszS01UcVhvZmsrYXozZz09'">
+نموذج 3
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/U1oyS2dkMU5kcnN1TzVTZ0FJTjlDQT09'">
+نموذج 4
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/Lys1Rk5MOW1sbGxmRXRzUTVjME5OUT09'">
+نموذج 5
+</button>
+
+
+
+</div>
+
+<div style="
+display:flex;
+overflow-x:auto;
+white-space:nowrap;
+gap:10px;
+padding:15px;
+">
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/WHNGRGtCUm9kS0VBWEpkc3lvMC9nQT09'"
+style="flex:none;min-width:120px;padding:10px;">
+نموذج 1
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/a0ZRWVBKWk9CdFp1a0owbTYyenBSUT09'"
+style="flex:none;min-width:120px;padding:10px;">
+نموذج 2
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/NW1xNW1DZkd5Ry9IMnN5djdmNllmZz09'"
+style="flex:none;min-width:120px;padding:10px;">
+نموذج 3
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/eGN4V1lrelVEeEIzelo3UGpBYlkrQT09'"
+style="flex:none;min-width:120px;padding:10px;">
+نموذج 4
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/eUdYNUJabEYzdDREci85bGxDM3Fzdz09'"
+style="flex:none;min-width:120px;padding:10px;">
+نموذج 5
+</button>
+
+<button onclick="window.location.href='https://www.dzexams.com/ar/annales/WUtCOFhUME84OVMzSWEzM3hNN3JuUT09'"
+style="flex:none;min-width:120px;padding:10px;">
+نموذج 6
+</button>
+
+</div>
+
+<h1 style="text-align:center;">
+قائمة الدروس
+</h1>
+
+<div style="
+display:flex;
+overflow-x:auto;
+white-space:nowrap;
+gap:10px;
+background:#222;
+padding:15px;
+">
+
+<button onclick="document.getElementById('lesson1').scrollIntoView();"
+style="
+min-width:180px;
+color:white;
+background:none;
+border:none;
+font-size:18px;
+flex:none;
+cursor:pointer;
+">
+Lesson 1
+</button>
+
+<button onclick="document.getElementById('lesson2').scrollIntoView();"
+style="
+min-width:180px;
+color:white;
+background:none;
+border:none;
+font-size:18px;
+flex:none;
+cursor:pointer;
+">
+Lesson 2
+</button>
+
+<button onclick="document.getElementById('lesson3').scrollIntoView();"
+style="
+min-width:180px;
+color:white;
+background:none;
+border:none;
+font-size:18px;
+flex:none;
+cursor:pointer;
+">
+Lesson 3
+</button>
+
+<button onclick="document.getElementById('lesson4').scrollIntoView();"
+style="
+min-width:180px;
+color:white;
+background:none;
+border:none;
+font-size:18px;
+flex:none;
+cursor:pointer;
+">
+Lesson 4
+</button>
+
+</div>
+
+<h2 id="lesson1">
+Lesson one: if conditional
+</h2>
+
+<h2>Lesson 1: If conditional</h2>
+
+<p>I look</p>
+
+<p><b>Mohamed:</b> what will you wear tomorrow?</p>
+
+<p><b>Abdel Malik:</b> I will wear a jacket because it's rainy and the weather is very cold ❄️🥶</p>
+
+<h3>The rule:</h3>
+
+<p>There are four types of the conditional</p>
+
+<h3>First: type 0</h3>
+
+<p>It's used to explain scientific facts and everything here happens 100%.</p>
+
+<p>Example: If it is hot, ice melts.</p>
+
+<p>In this type we use the present simple in both sentences.</p>
+
+<h3>Second: type 1</h3>
+
+<p>This type talks about something possible in the future (about 80%).</p>
+
+<p>Example: If you work hard, you will succeed.</p>
+
+<p>In this type we use the present simple after if and the future simple in the second sentence.</p>
+
+<h3>Third: type 2</h3>
+
+<p>This type talks about unreal or imaginary situations.</p>
+
+<p>Example: If I were you, I would open the store.</p>
+
+<p>In this type we use the past simple in the first sentence and would + verb in the second sentence.</p>
+
+<h3>Fourth: type 3</h3>
+
+<p>This type talks about impossible situations in the past.</p>
+
+<p>Example: If this player had played with us, we would have won the match.</p>
+
+<h3>Unless</h3>
+
+<p>We use it like if, but it means if not.</p>
+
+<p>Example:</p>
+
+<p>If you work hard, you won't fail.</p>
+
+<p>Unless you work hard, you will fail.</p>
+
+<p>That's all in this lesson.</p>
+
+<h2 id="lesson2">
+Despite and inspite of
+</h2>
+
+<h2>Lesson 2: Despite and Inspite of</h2>
+
+<p>
+Despite and Inspite of mean:
+(رغم / بالرغم من)
+</p>
+
+<h3>Rule:</h3>
+
+<p>
+After Despite / Inspite of, the verb becomes ING.
+</p>
+
+<p>
+Play → Playing
+</p>
+
+<p>
+Eat → Eating
+</p>
+
+<p>
+Win → Winning
+</p>
+
+<h3>Example:</h3>
+
+<p>
+Algeria won vs Argentina. Messi is number one.
+</p>
+
+<p>
+Despite Algeria winning vs Argentina, Messi is number one.
+</p>
+
+<p>
+The same with Inspite of.
+</p>
+
+<h3>Similar words:</h3>
+
+<p>
+Although
+</p>
+
+<p>
+Though
+</p>
+
+<p>
+However
+</p>
+
+<p>
+These words have similar meanings but the verb stays normal.
+</p>
+
+<h3>Example:</h3>
+
+<p>
+This city is freezing 🥶, I enjoyed it though.
+</p>
+
+<h2 id="lesson3">
+Linking words
+</h2>
+
+<h2>Lesson 3: Linking words</h2>
+
+<p>
+Linking words are words used to connect ideas.
+</p>
+
+<h3>1. Addition</h3>
+
+<p>
+and
+</p>
+
+<p>
+also
+</p>
+
+<p>
+in addition
+</p>
+
+<p>
+moreover
+</p>
+
+<p>
+Example: I study and I work.
+</p>
+
+<p>
+Moreover, I exercise daily.
+</p>
+
+<h3>2. Cause</h3>
+
+<p>
+because
+</p>
+
+<p>
+since
+</p>
+
+<p>
+as
+</p>
+
+<p>
+Example: I stayed home because it rained.
+</p>
+
+<h3>3. Result</h3>
+
+<p>
+so
+</p>
+
+<p>
+therefore
+</p>
+
+<p>
+as a result
+</p>
+
+<p>
+Example: It was late, so I slept.
+</p>
+
+<h3>4. Contrast</h3>
+
+<p>
+but
+</p>
+
+<p>
+however
+</p>
+
+<p>
+although
+</p>
+
+<p>
+despite
+</p>
+
+<p>
+Example: I am tired, but I will work.
+</p>
+
+<p>
+However, I agreed.
+</p>
+
+<h3>5. Sequence</h3>
+
+<p>
+first
+</p>
+
+<p>
+then
+</p>
+
+<p>
+after that
+</p>
+
+<p>
+finally
+</p>
+
+<p>
+Example: First, I wake up. Then I study.
+</p>
+
+
+<h2 id="lesson4">
+Tenses
+</h2>
+
+<h3>1. Present simple</h3>
+
+<p>
+I / You / We / They → verb
+</p>
+
+<p>
+He / She / It → verb + s
+</p>
+
+<p>
+Example: I wake up early.
+</p>
+
+<h3>Verbs ending with:</h3>
+
+<p>
+x / o / s / ss / sh / ch
+</p>
+
+<p>
+He / She / It → verb + es
+</p>
+
+<h3>Verbs ending with y</h3>
+
+<p>
+If there is a vowel before y:
+</p>
+
+<p>
+play → plays
+</p>
+
+<p>
+If there is a consonant before y:
+</p>
+
+<p>
+study → studies
+</p>
+
+<h3>2. Future simple</h3>
+
+<p>
+Will + verb
+</p>
+
+<h3>3. Past simple</h3>
+
+<p>
+Regular verbs:
+verb + ed
+</p>
+
+<p>
+Irregular verbs:
+special forms
+</p>
+
+<h3>4. Present perfect</h3>
+
+<p>
+Have / Has + past participle
+</p>
+
+<p>
+Regular verbs:
+verb + ed
+</p>
+
+<h3>5. Present continuous</h3>
+
+<p>
+To be + verb + ing
+</p>
+
+<h3>6. Past continuous</h3>
+
+<p>
+Was / Were + verb + ing
+</p>
