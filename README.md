@@ -184,317 +184,401 @@ style="flex:none;min-width:120px;padding:10px;">
 
 </div>
 
-<h2>Lesson one: if conditional</h2>
+<h1 style="text-align:center;">
+قائمة الدروس
+</h1>
+
+<div style="
+display:flex;
+overflow-x:auto;
+white-space:nowrap;
+gap:10px;
+background:#222;
+padding:15px;
+">
+
+<button onclick="document.getElementById('lesson1').scrollIntoView();"
+style="
+min-width:180px;
+color:white;
+background:none;
+border:none;
+font-size:18px;
+flex:none;
+cursor:pointer;
+">
+Lesson 1
+</button>
+
+<button onclick="document.getElementById('lesson2').scrollIntoView();"
+style="
+min-width:180px;
+color:white;
+background:none;
+border:none;
+font-size:18px;
+flex:none;
+cursor:pointer;
+">
+Lesson 2
+</button>
+
+<button onclick="document.getElementById('lesson3').scrollIntoView();"
+style="
+min-width:180px;
+color:white;
+background:none;
+border:none;
+font-size:18px;
+flex:none;
+cursor:pointer;
+">
+Lesson 3
+</button>
+
+<button onclick="document.getElementById('lesson4').scrollIntoView();"
+style="
+min-width:180px;
+color:white;
+background:none;
+border:none;
+font-size:18px;
+flex:none;
+cursor:pointer;
+">
+Lesson 4
+</button>
+
+</div>
+
+<h2 id="lesson1">
+Lesson one: if conditional
+</h2>
+
+<h2>Lesson 1: If conditional</h2>
 
 <p>I look</p>
 
 <p><b>Mohamed:</b> what will you wear tomorrow?</p>
+
 <p><b>Abdel Malik:</b> I will wear a jacket because it's rainy and the weather is very cold ❄️🥶</p>
 
 <h3>The rule:</h3>
+
 <p>There are four types of the conditional</p>
 
 <h3>First: type 0</h3>
-<p>it's used to explain Scientific fact and everything there is here will happen100%</p>
-<p>Exemple: If it is hot, ice melts.</p>
+
+<p>It's used to explain scientific facts and everything here happens 100%.</p>
+
+<p>Example: If it is hot, ice melts.</p>
+
 <p>In this type we use the present simple in both sentences.</p>
 
-<h3>The second type: type 1</h3>
-<p>and this type not everything there's will happen we can say 80%</p>
-<p>Example: If you work hard you will succeed</p>
+<h3>Second: type 1</h3>
+
+<p>This type talks about something possible in the future (about 80%).</p>
+
+<p>Example: If you work hard, you will succeed.</p>
+
 <p>In this type we use the present simple after if and the future simple in the second sentence.</p>
 
-<h3>The third type: type 2</h3>
-<p>In this type everything that we talk about it won't happen right now but it will happen probably in the future.</p>
-<p>Example: If I were you I would open the store</p>
+<h3>Third: type 2</h3>
+
+<p>This type talks about unreal or imaginary situations.</p>
+
+<p>Example: If I were you, I would open the store.</p>
+
 <p>In this type we use the past simple in the first sentence and would + verb in the second sentence.</p>
 
-<h3>The last type: type 3</h3>
-<p>In this type everything that we talk about won't happen never ever</p>
-<p>Example: If this player played with us we would win in the match</p>
-<p>In this type we use the past simple in the first sentence and would + verb in the second sentence.</p>
+<h3>Fourth: type 3</h3>
+
+<p>This type talks about impossible situations in the past.</p>
+
+<p>Example: If this player had played with us, we would have won the match.</p>
 
 <h3>Unless</h3>
-<p>We use it like if but it means if not</p>
+
+<p>We use it like if, but it means if not.</p>
+
 <p>Example:</p>
-<p>If you work hard you won't fail</p>
-<p>Unless you work hard you will fail</p>
 
-<p>That's all in this lesson</p>
+<p>If you work hard, you won't fail.</p>
 
-</body>
-</html>
+<p>Unless you work hard, you will fail.</p>
 
-Lesson two:
+<p>That's all in this lesson.</p>
 
+<h2 id="lesson2">
+Despite and inspite of
+</h2>
 
-1/Despite and inspite of 
+<h2>Lesson 2: Despite and Inspite of</h2>
 
+<p>
+Despite and Inspite of mean:
+(رغم / بالرغم من)
+</p>
 
-ادوات الربط(رغم أن/ بالرغم من)
+<h3>Rule:</h3>
 
+<p>
+After Despite / Inspite of, the verb becomes ING.
+</p>
 
-First:
+<p>
+Play → Playing
+</p>
 
+<p>
+Eat → Eating
+</p>
 
+<p>
+Win → Winning
+</p>
 
-You should transfer the  verb to ground 
+<h3>Example:</h3>
 
+<p>
+Algeria won vs Argentina. Messi is number one.
+</p>
 
+<p>
+Despite Algeria winning vs Argentina, Messi is number one.
+</p>
 
-Play. } Playing 
+<p>
+The same with Inspite of.
+</p>
 
+<h3>Similar words:</h3>
 
+<p>
+Although
+</p>
 
-Eat} eating 
+<p>
+Though
+</p>
 
+<p>
+However
+</p>
 
-Win } wining 
+<p>
+These words have similar meanings but the verb stays normal.
+</p>
 
+<h3>Example:</h3>
 
-Example 
+<p>
+This city is freezing 🥶, I enjoyed it though.
+</p>
 
+<h2 id="lesson3">
+Linking words
+</h2>
 
+<h2>Lesson 3: Linking words</h2>
 
-Algeria won vs Argentina. Messi is number one 
+<p>
+Linking words are words used to connect ideas.
+</p>
 
+<h3>1. Addition</h3>
 
-
-Despite 
-
-
-
-
-Despite Algeria wining vs Argentina Messi is number one 
-
-
-
-The same with Inspite of 
-
-
-
-There are also their synonyms
-
-
-
-Inspite infact of
-
-Despite infact of
-
-Although 
-
-Though 
-
-
-لها نفس الإستعمال ولكن لا يتأثر الفعل يبقى كما هو
-
-
-مثال:
-
-
-This city is freezing 🥶,
-I enjoyed it though 
-
-
-ونفس الإستعمال مع الآخرين
-
-
-
-5) LINKING WORDS (أدوات الربط)
-
-
-
-هي كلمات تربط بين الأفكار.
-
-
-🔹 1. الإضافة (Addition)
-
-
-
+<p>
 and
+</p>
+
+<p>
 also
+</p>
+
+<p>
 in addition
+</p>
+
+<p>
 moreover
+</p>
 
+<p>
+Example: I study and I work.
+</p>
 
-مثال:
-
-
-
-I study and I work.
+<p>
 Moreover, I exercise daily.
+</p>
 
+<h3>2. Cause</h3>
 
-
-🔹 2. السبب (Cause)
-
-
-
+<p>
 because
+</p>
+
+<p>
 since
+</p>
+
+<p>
 as
+</p>
 
+<p>
+Example: I stayed home because it rained.
+</p>
 
-مثال:
+<h3>3. Result</h3>
 
-
-
-I stayed home because it rained.
-
-
-
-🔹 3. النتيجة (Result)
-
-
-
+<p>
 so
+</p>
+
+<p>
 therefore
+</p>
+
+<p>
 as a result
+</p>
 
+<p>
+Example: It was late, so I slept.
+</p>
 
-مثال:
+<h3>4. Contrast</h3>
 
-
-
-It was late, so I slept.
-
-
-
-🔹 4. التناقض (Contrast)
-
-
-
+<p>
 but
+</p>
 
+<p>
 however
+</p>
 
+<p>
 although
+</p>
 
+<p>
 despite
+</p>
 
+<p>
+Example: I am tired, but I will work.
+</p>
 
-مثال:
-
-
-I am tired, but I will work.
+<p>
 However, I agreed.
+</p>
 
+<h3>5. Sequence</h3>
 
-
-🔹 5. الترتيب (Sequence)
-
-
+<p>
 first
+</p>
+
+<p>
 then
+</p>
+
+<p>
 after that
+</p>
+
+<p>
 finally
+</p>
 
+<p>
+Example: First, I wake up. Then I study.
+</p>
 
-مثال:
+<h2 id="lesson4 tenses 
 
+<h2>Lesson 4: Tenses</h2>
 
-First, I wake up. Then I study.
+<h3>1. Present simple</h3>
 
+<p>
+I / You / We / They → verb
+</p>
 
-Tenses:
+<p>
+He / She / It → verb + s
+</p>
 
+<p>
+Example: I wake up early.
+</p>
 
-1/Present simple :
+<h3>Verbs ending with:</h3>
 
+<p>
+x / o / s / ss / sh / ch
+</p>
 
-الحالة الأولى:
+<p>
+He / She / It → verb + es
+</p>
 
+<h3>Verbs ending with y</h3>
 
-I you We They } 
+<p>
+If there is a vowel before y:
+</p>
 
+<p>
+play → plays
+</p>
 
-stem of the verb 
+<p>
+If there is a consonant before y:
+</p>
 
+<p>
+study → studies
+</p>
 
-He she It} verb stem + s
+<h3>2. Future simple</h3>
 
+<p>
+Will + verb
+</p>
 
-Example:
+<h3>3. Past simple</h3>
 
-
-
-I wake up early 
-
-
-
-الحالة الثانية:
-
-
-The verbs that ended by:
-
-
-
-X o s SS sh ch g..
-
-
-I you We They}
-
-
-Stem of the verb 
-
-
-He she It} the verb+ es
-
-
-3/
-
-The verbs that ended by y
-
-
-If there's a vowel before the y
-
-
-He she It} verb Plus s
-
-
-
-If there's a consonant 
-
-
-
-He she It}  we remove the y and we add ies
-
-
-2/future simple:
-
-
-The model verb Will + The verb stem  
-
-
-3/ past simple:
-
-
-1/Regular verbs :
-
-
-The stem of the verb+Ed
-
-(With All pronouns)
-
-Irregular verbs:
-
-في الصورة
-
-Present perfect 
-
-
-To have in the present simple+the past participle of the verb 
-
+<p>
 Regular verbs:
+verb + ed
+</p>
 
+<p>
+Irregular verbs:
+special forms
+</p>
 
-Past participle=to have+The verb+Ed
-Irregular verbs in the photo 
+<h3>4. Present perfect</h3>
 
-Present continues:
+<p>
+Have / Has + past participle
+</p>
 
+<p>
+Regular verbs:
+verb + ed
+</p>
 
-To Be+ Ground of the verb (the verb+ING)
-Past continues:
+<h3>5. Present continuous</h3>
 
-To be in the past simple+Ground of the verb
+<p>
+To be + verb + ing
+</p>
+
+<h3>6. Past continuous</h3>
+
+<p>
+Was / Were + verb + ing
+</p>
