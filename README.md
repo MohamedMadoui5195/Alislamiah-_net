@@ -496,9 +496,10 @@ finally
 Example: First, I wake up. Then I study.
 </p>
 
-<h2 id="lesson4 tenses 
 
-<h2>Lesson 4: Tenses</h2>
+<h2 id="lesson4">
+Tenses
+</h2>
 
 <h3>1. Present simple</h3>
 
