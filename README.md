@@ -185,7 +185,6 @@ style="flex:none;min-width:120px;padding:10px;">
 </div>
 
 الدروس الخصوصية :
-
 <h1 style="text-align:center;">
 قائمة الدروس
 </h1>
@@ -199,56 +198,20 @@ background:#222;
 padding:15px;
 ">
 
-<button onclick="document.getElementById('lesson1').scrollIntoView();"
-style="
-min-width:220px;
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-flex:none;
-">
-Lesson 1: if condition
+<button onclick="document.getElementById('lesson1').scrollIntoView();">
+Lesson 1
 </button>
 
-<button onclick="document.getElementById('lesson2').scrollIntoView();"
-style="
-min-width:260px;
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-flex:none;
-">
-Lesson 2: Despite and inspite of
+<button onclick="document.getElementById('lesson2').scrollIntoView();">
+Lesson 2
 </button>
 
-<button onclick="document.getElementById('lesson3').scrollIntoView();"
-style="
-min-width:220px;
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-flex:none;
-">
-Lesson 3: Linking words
+<button onclick="document.getElementById('lesson3').scrollIntoView();">
+Lesson 3
 </button>
 
-<button onclick="document.getElementById('lesson4').scrollIntoView();"
-style="
-min-width:180px;
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-flex:none;
-">
-Lesson 4: Tenses
+<button onclick="document.getElementById('lesson4').scrollIntoView();">
+Lesson 4
 </button>
 
 </div>
@@ -257,17 +220,33 @@ Lesson 4: Tenses
 Lesson one: if conditional
 </h2>
 
+<p>
+هنا درس if conditional
+</p>
+
 <h2 id="lesson2">
 Despite and inspite of
 </h2>
+
+<p>
+هنا الدرس الثاني
+</p>
 
 <h2 id="lesson3">
 Linking words
 </h2>
 
+<p>
+هنا الدرس الثالث
+</p>
+
 <h2 id="lesson4">
 Tenses
 </h2>
+
+<p>
+هنا الدرس الرابع
+</p>
 
 <h2>Lesson one: if conditional</h2>
 
