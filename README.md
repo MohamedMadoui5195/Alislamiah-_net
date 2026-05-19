@@ -1,16 +1,6 @@
 <!DOCTYP
 
-<div style="
-text-align:center;
-background:#1f2940;
-padding:15px;
-">
-
 <img src="Icon.png" width="90">
-
-</div>
-
-
 
 <div style="
 display:flex;
