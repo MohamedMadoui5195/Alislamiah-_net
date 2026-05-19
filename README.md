@@ -1,18 +1,6 @@
 <!DOCTYP
 
-<div style="
-display:flex;
-align-items:center;
-padding:10px;
-">
 
-<img src="Icon.png" style="
-width:55px;
-height:55px;
-border-radius:12px;
-">
-
-</div>
 
 <div style="
 display:flex;
