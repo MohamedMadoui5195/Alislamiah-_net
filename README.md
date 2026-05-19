@@ -1,6 +1,14 @@
 <!DOCTYP
 
-<img src="Icon.png" width="90">
+<div style="
+display:flex;
+align-items:center;
+padding:15px 20px;
+">
+
+<img src="Icon.png" width="60">
+
+</div>
 
 <div style="
 display:flex;
