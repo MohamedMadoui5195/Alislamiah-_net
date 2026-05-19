@@ -1,6 +1,6 @@
 <!DOCTYP
 
-
+<img src="icon.png" width="70">
 
 <div style="
 display:flex;
