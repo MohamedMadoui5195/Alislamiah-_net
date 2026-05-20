@@ -1,5 +1,6 @@
-{
-  "name": "Alislamiah-_net",
+
+  {
+  "name": "Alislamiah",
   "short_name": "Islamiah",
   "start_url": "./",
   "display": "standalone",
@@ -8,7 +9,7 @@
   "icons": [
     {
       "src": "icon.png",
-      "sizes": "192x192",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
