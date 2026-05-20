@@ -2,15 +2,19 @@
 
 <img src="icon.png" width="70">
 
+<!DOCTYPE html>
+<html>
 <head>
 
-<link rel="icon" href="icon.png">
+<link rel="icon" type="image/png" href="icon.png">
 
 <link rel="manifest" href="manifest.json">
 
 <meta name="theme-color" content="#ff0000">
 
 </head>
+
+<body>
 
 <div style="
 display:flex;
