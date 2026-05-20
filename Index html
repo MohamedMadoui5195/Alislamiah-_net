@@ -6,9 +6,9 @@
 
 <link rel="manifest" href="manifest.json">
 
-<meta name="theme-color" content="#ff0000">
-
 <link rel="icon" type="image/png" href="icon.png">
+
+<meta name="theme-color" content="#ff0000">
 
 </head>
 
