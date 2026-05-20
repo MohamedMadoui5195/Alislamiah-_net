@@ -4,7 +4,7 @@
 
 <head>
 
-<link rel="icon" type="image/png" sizes="512x512" href="icon.png">
+<link rel="icon" href="icon.png">
 
 <link rel="manifest" href="manifest.json">
 
