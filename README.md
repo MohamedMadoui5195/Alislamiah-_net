@@ -253,6 +253,39 @@ Lesson 4
 
 </div>
 
+<div style="
+display:flex;
+gap:15px;
+justify-content:center;
+flex-wrap:wrap;
+">
+
+<div style="
+border:1px solid #ccc;
+padding:15px;
+border-radius:10px;
+text-align:center;
+min-width:180px;
+">
+📺<br>
+<b>2520</b><br>
+مشترك يوتيوب
+</div>
+
+<div style="
+border:1px solid #ccc;
+padding:15px;
+border-radius:10px;
+text-align:center;
+min-width:180px;
+">
+🎵<br>
+<b>144</b><br>
+متابع تيك توك
+</div>
+
+</div>
+
 <h2 id="lesson1">
 Lesson one: if conditional
 </h2>
