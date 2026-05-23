@@ -189,6 +189,15 @@ cursor:pointer;
 
 </div>
 
+div style="
+display:flex;
+overflow-x:auto;
+white-space:nowrap;
+gap:10px;
+background:red;
+padding:15px;
+">
+
 <button onclick="
 document.body.style.background='white';
 document.body.style.color='black';
