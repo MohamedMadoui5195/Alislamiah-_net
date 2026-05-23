@@ -2,20 +2,29 @@
 
 <img src="icon.png" width="70">
 
-<!-- زر القائمة -->
+<!-- الشريط الأحمر -->
+<div style="
+background:#b30d3f;
+width:100%;
+height:70px;
+display:flex;
+align-items:center;
+justify-content:flex-end;
+padding-right:20px;
+box-sizing:border-box;
+">
+
 <button onclick="openMenu()" style="
-position:fixed;
-top:10px;
-right:10px;
-font-size:30px;
+font-size:35px;
 background:none;
 border:none;
 color:white;
 cursor:pointer;
-z-index:1001;
 ">
 ☰
 </button>
+
+</div>
 
 <!-- القائمة الجانبية -->
 <div id="menu" style="
