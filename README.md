@@ -253,16 +253,20 @@ Lesson 4
 
 </div>
 
-<div style="
+<div id="stats-box" style="
 background:#071a3d;
-padding:40px;
+padding:50px;
 border-radius:20px;
-text-align:center;
 margin:20px;
+text-align:center;
 ">
 
-<h2 style="color:white;font-size:40px;">
-إحصائيات الموقع
+<h2 style="
+color:white;
+font-size:40px;
+margin-bottom:30px;
+">
+إحصائياتنا
 </h2>
 
 <div style="
@@ -272,16 +276,24 @@ gap:30px;
 flex-wrap:wrap;
 ">
 
+<!-- YouTube -->
 <div style="
 background:rgba(255,255,255,0.08);
+width:280px;
 padding:30px;
-border-radius:15px;
-width:250px;
+border-radius:20px;
 ">
-<div id="youtube"
+
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"
 style="
+width:90px;
+margin-bottom:15px;
+">
+
+<div id="youtube" style="
 color:white;
-font-size:55px;
+font-size:60px;
 font-weight:bold;
 ">
 0
@@ -290,29 +302,30 @@ font-weight:bold;
 <div style="
 color:white;
 font-size:28px;
-margin-top:10px;
-">
-📺 يوتيوب
-</div>
-
-<div style="
-color:#cccccc;
-font-size:22px;
 ">
 مشترك
 </div>
+
 </div>
 
+<!-- TikTok -->
 <div style="
 background:rgba(255,255,255,0.08);
+width:280px;
 padding:30px;
-border-radius:15px;
-width:250px;
+border-radius:20px;
 ">
-<div id="tiktok"
+
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/a/a9/TikTok_logo.svg"
 style="
+width:80px;
+margin-bottom:15px;
+">
+
+<div id="tiktok" style="
 color:white;
-font-size:55px;
+font-size:60px;
 font-weight:bold;
 ">
 0
@@ -321,43 +334,66 @@ font-weight:bold;
 <div style="
 color:white;
 font-size:28px;
-margin-top:10px;
-">
-🎵 تيك توك
-</div>
-
-<div style="
-color:#cccccc;
-font-size:22px;
 ">
 متابع
 </div>
+
 </div>
 
 </div>
 </div>
 
 <script>
+let started = false;
+
+function startCounters() {
+
+if(started) return;
+started = true;
+
 let yt = 0;
 let tt = 0;
 
-let youtubeCounter = setInterval(function(){
+let y = setInterval(function(){
+
 yt += 20;
+
 if(yt >= 2520){
 yt = 2520;
-clearInterval(youtubeCounter);
+clearInterval(y);
 }
+
 document.getElementById("youtube").innerHTML = yt;
+
 },20);
 
-let tiktokCounter = setInterval(function(){
+let t = setInterval(function(){
+
 tt += 2;
+
 if(tt >= 144){
 tt = 144;
-clearInterval(tiktokCounter);
+clearInterval(t);
 }
+
 document.getElementById("tiktok").innerHTML = tt;
+
 },30);
+
+}
+
+window.addEventListener("scroll", function(){
+
+let box = document.getElementById("stats-box");
+
+if(
+box.getBoundingClientRect().top <
+window.innerHeight - 100
+){
+startCounters();
+}
+
+});
 </script>
 
 <h2 id="lesson1">
