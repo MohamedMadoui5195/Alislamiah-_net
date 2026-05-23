@@ -2,178 +2,99 @@
 
 <img src="icon.png" width="70">
 
-<!-- الشريط الأحمر -->
-<div style="
-background:#b30d3f;
-width:100%;
-height:70px;
-display:flex;
-align-items:center;
-justify-content:flex-end;
-padding-right:20px;
-box-sizing:border-box;
-">
+<style>
+.menu-btn{
+    position:fixed;
+    top:10px;
+    right:10px;
+    width:35px;
+    height:35px;
+    background:red;
+    border:none;
+    cursor:pointer;
+    z-index:1000;
+}
 
-<button onclick="openMenu()" style="
-font-size:35px;
-background:none;
-border:none;
-color:white;
-cursor:pointer;
-">
-☰
-</button>
+.menu{
+    position:fixed;
+    top:55px;
+    right:10px;
+    width:220px;
+    background:red;
+    display:none;
+    flex-direction:column;
+    border-radius:6px;
+    overflow:hidden;
+    z-index:999;
+}
 
-</div>
+.menu button{
+    background:red;
+    color:white;
+    border:none;
+    padding:12px;
+    text-align:right;
+    border-bottom:1px solid #aa0000;
+    cursor:pointer;
+}
 
-<!-- القائمة الجانبية -->
-<div id="menu" style="
-height:100%;
-width:0;
-position:fixed;
-top:0;
-right:0;
-background:#b30d3f;
-overflow-x:hidden;
-transition:0.4s;
-padding-top:60px;
-z-index:1000;
-">
+.submenu{
+    display:none;
+    background:#111;
+    flex-direction:column;
+}
 
-<a href="javascript:void(0)"
-onclick="closeMenu()"
-style="
-position:absolute;
-top:10px;
-left:15px;
-font-size:35px;
-color:white;
-text-decoration:none;
-">
-×
-</a>
+.submenu a, .submenu div{
+    color:white;
+    padding:10px;
+    text-decoration:none;
+    border-bottom:1px solid #333;
+    display:block;
+    cursor:pointer;
+}
+</style>
 
-<!-- منصاتنا -->
-<button onclick="togglePlatforms()" style="
-width:100%;
-padding:15px;
-font-size:22px;
-background:none;
-border:none;
-color:white;
-text-align:right;
-cursor:pointer;
-">
-📱 منصاتنا ▼
-</button>
+<button class="menu-btn" onclick="toggleMenu()"></button>
 
-<div id="platforms" style="display:none;">
+<div class="menu" id="menu">
 
-<a href="https://www.tiktok.com/@user31912672754551?_r=1&_t=ZS-96bCnHsMDCa"
-target="_blank"
-style="display:block;padding:12px 30px;color:white;text-decoration:none;">
-تيك توك
-</a>
+    <button onclick="toggleSub('plat')">منصاتنا</button>
+    <div class="submenu" id="plat">
+        <a href="https://youtube.com/@mohamedmadoui5195?si=EPBuBW4SAnwV2h7X" target="_blank">يوتيوب</a>
+        <a href="https://whatsapp.com/channel/0029VbCd4APEawdpGuhPeA0G" target="_blank">واتساب</a>
+        <a href="https://www.tiktok.com/@user31912672754551?_r=1&_t=ZS-96LucWHJg5x" target="_blank">تيك توك</a>
+        <a href="https://t.me/alislamiahmo45" target="_blank">تلغرام</a>
+    </div>
 
-<a href="https://youtube.com/@alislamiah5195?si=8GwSs2q4DnD-JOMf"
-target="_blank"
-style="display:block;padding:12px 30px;color:white;text-decoration:none;">
-يوتيوب
-</a>
+    <button onclick="toggleSub('lessons')">دروسنا</button>
+    <div class="submenu" id="lessons">
+        <div>If conditional</div>
+        <div>Despite / In spite of</div>
+        <div>Linking words</div>
+        <div>Tenses</div>
+    </div>
 
-<a href="https://whatsapp.com/channel/0029VbCd4APEawdpGuhPeA0G"
-target="_blank"
-style="display:block;padding:12px 30px;color:white;text-decoration:none;">
-واتساب
-</a>
-
-<a href="https://t.me/alislamiahmo45"
-target="_blank"
-style="display:block;padding:12px 30px;color:white;text-decoration:none;">
-تيليجرام
-</a>
-
-</div>
-
-<!-- دروسنا -->
-<button onclick="toggleLessons()" style="
-width:100%;
-padding:15px;
-font-size:22px;
-background:none;
-border:none;
-color:white;
-text-align:right;
-cursor:pointer;
-">
-📚 دروسنا ▼
-</button>
-
-<div id="lessons" style="display:none;">
-
-<a href="#lesson1"
-style="display:block;padding:12px 30px;color:white;text-decoration:none;">
-If Conditional
-</a>
-
-<a href="#lesson2"
-style="display:block;padding:12px 30px;color:white;text-decoration:none;">
-Despite and Inspite Of
-</a>
-
-<a href="#lesson3"
-style="display:block;padding:12px 30px;color:white;text-decoration:none;">
-Linking Words
-</a>
-
-<a href="#lesson4"
-style="display:block;padding:12px 30px;color:white;text-decoration:none;">
-Tenses
-</a>
-
-</div>
+    <button onclick="toggleSub('models')">نماذج</button>
+    <div class="submenu" id="models">
+        <div>الخلفية البيضاء</div>
+        <div>الخلفية الأصلية</div>
+    </div>
 
 </div>
 
 <script>
-function openMenu() {
-document.getElementById("menu").style.width = "280px";
+function toggleMenu(){
+    let menu = document.getElementById("menu");
+    menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+    menu.style.flexDirection = "column";
 }
 
-function closeMenu() {
-document.getElementById("menu").style.width = "0";
-}
-
-function togglePlatforms() {
-var x = document.getElementById("platforms");
-if (x.style.display === "block") {
-x.style.display = "none";
-} else {
-x.style.display = "block";
-}
-}
-
-function toggleLessons() {
-var x = document.getElementById("lessons");
-if (x.style.display === "block") {
-x.style.display = "none";
-} else {
-x.style.display = "block";
-}
+function toggleSub(id){
+    let sub = document.getElementById(id);
+    sub.style.display = (sub.style.display === "flex") ? "none" : "flex";
+    sub.style.flexDirection = "column";
 }
 </script>
-
-<button onclick="openMenu()" style="
-background:none;
-border:none;
-color:white;
-font-size:32px;
-cursor:pointer;
-">
-☰
-</button>
-
-</div>
 
 <video controls width="300">
   <source src="IMG_20260514_215441_948.mp4" type="video/mp4">
