@@ -316,12 +316,8 @@ padding:30px;
 border-radius:20px;
 ">
 
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/a/a9/TikTok_logo.svg"
-style="
-width:80px;
-margin-bottom:15px;
-">
+<img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png"
+width="80">
 
 <div id="tiktok" style="
 color:white;
