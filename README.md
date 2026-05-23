@@ -164,13 +164,30 @@ x.style.display = "block";
 </script>
 
 <div style="
+position:fixed;
+top:10px;
+right:10px;
+background:#b30d3f;
+width:60px;
+height:60px;
+border-radius:8px;
 display:flex;
-overflow-x:auto;
-white-space:nowrap;
-gap:10px;
-background:red;
-padding:15px;
+justify-content:center;
+align-items:center;
+z-index:999;
 ">
+
+<button onclick="openMenu()" style="
+background:none;
+border:none;
+color:white;
+font-size:32px;
+cursor:pointer;
+">
+☰
+</button>
+
+</div>
 
 <button onclick="
 document.body.style.background='white';
