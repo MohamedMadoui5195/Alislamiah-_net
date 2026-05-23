@@ -254,37 +254,111 @@ Lesson 4
 </div>
 
 <div style="
+background:#071a3d;
+padding:40px;
+border-radius:20px;
+text-align:center;
+margin:20px;
+">
+
+<h2 style="color:white;font-size:40px;">
+إحصائيات الموقع
+</h2>
+
+<div style="
 display:flex;
-gap:15px;
 justify-content:center;
+gap:30px;
 flex-wrap:wrap;
 ">
 
 <div style="
-border:1px solid #ccc;
-padding:15px;
-border-radius:10px;
-text-align:center;
-min-width:180px;
+background:rgba(255,255,255,0.08);
+padding:30px;
+border-radius:15px;
+width:250px;
 ">
-📺<br>
-<b>2520</b><br>
-مشترك يوتيوب
+<div id="youtube"
+style="
+color:white;
+font-size:55px;
+font-weight:bold;
+">
+0
 </div>
 
 <div style="
-border:1px solid #ccc;
-padding:15px;
-border-radius:10px;
-text-align:center;
-min-width:180px;
+color:white;
+font-size:28px;
+margin-top:10px;
 ">
-🎵<br>
-<b>144</b><br>
-متابع تيك توك
+📺 يوتيوب
+</div>
+
+<div style="
+color:#cccccc;
+font-size:22px;
+">
+مشترك
+</div>
+</div>
+
+<div style="
+background:rgba(255,255,255,0.08);
+padding:30px;
+border-radius:15px;
+width:250px;
+">
+<div id="tiktok"
+style="
+color:white;
+font-size:55px;
+font-weight:bold;
+">
+0
+</div>
+
+<div style="
+color:white;
+font-size:28px;
+margin-top:10px;
+">
+🎵 تيك توك
+</div>
+
+<div style="
+color:#cccccc;
+font-size:22px;
+">
+متابع
+</div>
 </div>
 
 </div>
+</div>
+
+<script>
+let yt = 0;
+let tt = 0;
+
+let youtubeCounter = setInterval(function(){
+yt += 20;
+if(yt >= 2520){
+yt = 2520;
+clearInterval(youtubeCounter);
+}
+document.getElementById("youtube").innerHTML = yt;
+},20);
+
+let tiktokCounter = setInterval(function(){
+tt += 2;
+if(tt >= 144){
+tt = 144;
+clearInterval(tiktokCounter);
+}
+document.getElementById("tiktok").innerHTML = tt;
+},30);
+</script>
 
 <h2 id="lesson1">
 Lesson one: if conditional
