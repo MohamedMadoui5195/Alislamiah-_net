@@ -2,6 +2,158 @@
 
 <img src="icon.png" width="70">
 
+<!-- زر القائمة -->
+<button onclick="openMenu()" style="
+position:fixed;
+top:10px;
+right:10px;
+font-size:30px;
+background:none;
+border:none;
+color:white;
+cursor:pointer;
+z-index:1001;
+">
+☰
+</button>
+
+<!-- القائمة الجانبية -->
+<div id="menu" style="
+height:100%;
+width:0;
+position:fixed;
+top:0;
+right:0;
+background:#b30d3f;
+overflow-x:hidden;
+transition:0.4s;
+padding-top:60px;
+z-index:1000;
+">
+
+<a href="javascript:void(0)"
+onclick="closeMenu()"
+style="
+position:absolute;
+top:10px;
+left:15px;
+font-size:35px;
+color:white;
+text-decoration:none;
+">
+×
+</a>
+
+<!-- منصاتنا -->
+<button onclick="togglePlatforms()" style="
+width:100%;
+padding:15px;
+font-size:22px;
+background:none;
+border:none;
+color:white;
+text-align:right;
+cursor:pointer;
+">
+📱 منصاتنا ▼
+</button>
+
+<div id="platforms" style="display:none;">
+
+<a href="https://www.tiktok.com/@user31912672754551?_r=1&_t=ZS-96bCnHsMDCa"
+target="_blank"
+style="display:block;padding:12px 30px;color:white;text-decoration:none;">
+تيك توك
+</a>
+
+<a href="https://youtube.com/@alislamiah5195?si=8GwSs2q4DnD-JOMf"
+target="_blank"
+style="display:block;padding:12px 30px;color:white;text-decoration:none;">
+يوتيوب
+</a>
+
+<a href="https://whatsapp.com/channel/0029VbCd4APEawdpGuhPeA0G"
+target="_blank"
+style="display:block;padding:12px 30px;color:white;text-decoration:none;">
+واتساب
+</a>
+
+<a href="https://t.me/alislamiahmo45"
+target="_blank"
+style="display:block;padding:12px 30px;color:white;text-decoration:none;">
+تيليجرام
+</a>
+
+</div>
+
+<!-- دروسنا -->
+<button onclick="toggleLessons()" style="
+width:100%;
+padding:15px;
+font-size:22px;
+background:none;
+border:none;
+color:white;
+text-align:right;
+cursor:pointer;
+">
+📚 دروسنا ▼
+</button>
+
+<div id="lessons" style="display:none;">
+
+<a href="#lesson1"
+style="display:block;padding:12px 30px;color:white;text-decoration:none;">
+If Conditional
+</a>
+
+<a href="#lesson2"
+style="display:block;padding:12px 30px;color:white;text-decoration:none;">
+Despite and Inspite Of
+</a>
+
+<a href="#lesson3"
+style="display:block;padding:12px 30px;color:white;text-decoration:none;">
+Linking Words
+</a>
+
+<a href="#lesson4"
+style="display:block;padding:12px 30px;color:white;text-decoration:none;">
+Tenses
+</a>
+
+</div>
+
+</div>
+
+<script>
+function openMenu() {
+document.getElementById("menu").style.width = "280px";
+}
+
+function closeMenu() {
+document.getElementById("menu").style.width = "0";
+}
+
+function togglePlatforms() {
+var x = document.getElementById("platforms");
+if (x.style.display === "block") {
+x.style.display = "none";
+} else {
+x.style.display = "block";
+}
+}
+
+function toggleLessons() {
+var x = document.getElementById("lessons");
+if (x.style.display === "block") {
+x.style.display = "none";
+} else {
+x.style.display = "block";
+}
+}
+</script>
+
 <div style="
 display:flex;
 overflow-x:auto;
