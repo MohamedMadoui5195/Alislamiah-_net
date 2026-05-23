@@ -4,95 +4,99 @@
 
 <style>
 .menu-btn{
-    position:fixed;
-    top:10px;
-    right:10px;
-    width:35px;
-    height:35px;
-    background:red;
-    border:none;
-    cursor:pointer;
-    z-index:1000;
+position:fixed;
+top:15px;
+right:15px;
+width:45px;
+height:45px;
+background:red;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+cursor:pointer;
+z-index:1000;
+}
+
+.menu-btn div{
+width:22px;
+height:3px;
+background:white;
+margin:2px 0;
 }
 
 .menu{
-    position:fixed;
-    top:55px;
-    right:10px;
-    width:220px;
-    background:red;
-    display:none;
-    flex-direction:column;
-    border-radius:6px;
-    overflow:hidden;
-    z-index:999;
+position:fixed;
+top:70px;
+right:15px;
+width:0;
+height:0;
+overflow:hidden;
+background:red;
+transition:0.4s;
+border-radius:5px;
+padding:0;
+}
+
+.menu.open{
+width:220px;
+height:auto;
+padding:10px;
 }
 
 .menu button{
-    background:red;
-    color:white;
-    border:none;
-    padding:12px;
-    text-align:right;
-    border-bottom:1px solid #aa0000;
-    cursor:pointer;
+width:100%;
+margin:5px 0;
+padding:8px;
+border:none;
+cursor:pointer;
 }
 
-.submenu{
-    display:none;
-    background:#111;
-    flex-direction:column;
-}
-
-.submenu a, .submenu div{
-    color:white;
-    padding:10px;
-    text-decoration:none;
-    border-bottom:1px solid #333;
-    display:block;
-    cursor:pointer;
+.sub{
+display:none;
+margin-left:5px;
 }
 </style>
 
-<button class="menu-btn" onclick="toggleMenu()"></button>
+<div class="menu-btn" onclick="toggleMenu()">
+<div></div>
+<div></div>
+<div></div>
+</div>
 
 <div class="menu" id="menu">
 
-    <button onclick="toggleSub('plat')">منصاتنا</button>
-    <div class="submenu" id="plat">
-        <a href="https://youtube.com/@mohamedmadoui5195?si=EPBuBW4SAnwV2h7X" target="_blank">يوتيوب</a>
-        <a href="https://whatsapp.com/channel/0029VbCd4APEawdpGuhPeA0G" target="_blank">واتساب</a>
-        <a href="https://www.tiktok.com/@user31912672754551?_r=1&_t=ZS-96LucWHJg5x" target="_blank">تيك توك</a>
-        <a href="https://t.me/alislamiahmo45" target="_blank">تلغرام</a>
-    </div>
+<button onclick="toggleSub('m1')">منصاتنا</button>
+<div class="sub" id="m1">
+<button>YouTube</button>
+<button>Telegram</button>
+<button>Website</button>
+</div>
 
-    <button onclick="toggleSub('lessons')">دروسنا</button>
-    <div class="submenu" id="lessons">
-        <div>If conditional</div>
-        <div>Despite / In spite of</div>
-        <div>Linking words</div>
-        <div>Tenses</div>
-    </div>
+<button onclick="toggleSub('m2')">دروسنا</button>
+<div class="sub" id="m2">
+<button>IF conditional</button>
+<button>Despite and In spite of</button>
+<button>Linking words</button>
+<button>Tenses</button>
+</div>
 
-    <button onclick="toggleSub('models')">نماذج</button>
-    <div class="submenu" id="models">
-        <div>الخلفية البيضاء</div>
-        <div>الخلفية الأصلية</div>
-    </div>
+<button onclick="toggleTheme()">خلفية الموقع</button>
 
 </div>
 
 <script>
 function toggleMenu(){
-    let menu = document.getElementById("menu");
-    menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
-    menu.style.flexDirection = "column";
+document.getElementById("menu").classList.toggle("open");
 }
 
 function toggleSub(id){
-    let sub = document.getElementById(id);
-    sub.style.display = (sub.style.display === "flex") ? "none" : "flex";
-    sub.style.flexDirection = "column";
+let el=document.getElementById(id);
+el.style.display = (el.style.display==="block")?"none":"block";
+}
+
+function toggleTheme(){
+document.body.classList.toggle("dark");
 }
 </script>
 
