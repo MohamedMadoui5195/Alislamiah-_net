@@ -163,20 +163,6 @@ x.style.display = "block";
 }
 </script>
 
-<div style="
-position:fixed;
-top:10px;
-right:10px;
-background:#b30d3f;
-width:60px;
-height:60px;
-border-radius:8px;
-display:flex;
-justify-content:center;
-align-items:center;
-z-index:999;
-">
-
 <button onclick="openMenu()" style="
 background:none;
 border:none;
@@ -185,109 +171,6 @@ font-size:32px;
 cursor:pointer;
 ">
 ☰
-</button>
-
-</div>
-
-div style="
-display:flex;
-overflow-x:auto;
-white-space:nowrap;
-gap:10px;
-background:red;
-padding:15px;
-">
-
-<button onclick="
-document.body.style.background='white';
-document.body.style.color='black';
-"
-style="
-min-width:100px;
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-flex:none;
-">
-أبيض
-</button>
-
-<button onclick="
-document.body.style.background='#2d3550';
-document.body.style.color='white';
-"
-style="
-min-width:100px;
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-flex:none;
-">
-أزرق
-</button>
-
-<button onclick="
-window.location.href='https://youtube.com/@mohamedmadoui5195?si=EPBuBW4SAnwV2h7X';
-"
-style="
-min-width:100px;
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-flex:none;
-">
-يوتيوب
-</button>
-
-<button onclick="
-window.location.href='https://whatsapp.com/channel/0029VbCd4APEawdpGuhPeA0G';
-"
-style="
-min-width:100px;
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-flex:none;
-">
-واتساب
-</button>
-
-<button onclick="
-window.location.href='https://www.tiktok.com/@user31912672754551?_r=1&_t=ZS-96LucWHJg5x';
-"
-style="
-min-width:100px;
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-flex:none;
-">
-تيك توك
-</button>
-
-<button onclick="
-window.location.href='https://t.me/alislamiahmo45';
-"
-style="
-min-width:100px;
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-flex:none;
-">
-تيليجرام
 </button>
 
 </div>
