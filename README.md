@@ -164,6 +164,16 @@ x.style.display = "none";
 x.style.display = "block";
 }
 }
+  <div style="
+position:absolute;
+bottom:20px;
+width:100%;
+text-align:center;
+color:white;
+font-size:14px;
+">
+© جميع حقوق النشر محفوظة لدى الإسلامية
+</div>
 </script>
 
 <div style="
