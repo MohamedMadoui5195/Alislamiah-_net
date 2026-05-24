@@ -29,7 +29,7 @@ cursor:pointer;
 
 </div>
 
-<!-- القائمة الجانبية -->
+<!-- القائمة -->
 <div id="menu" style="
 height:100%;
 width:0;
@@ -136,6 +136,62 @@ Tenses
 
 </div>
 
+<!-- الخلفية -->
+<button onclick="toggleBackgrounds()" style="
+width:100%;
+padding:15px;
+font-size:22px;
+background:none;
+border:none;
+color:white;
+text-align:right;
+cursor:pointer;
+">
+🎨 الخلفية ▼
+</button>
+
+<div id="backgrounds" style="display:none;">
+
+<button onclick="whiteTheme()" style="
+width:100%;
+padding:12px 30px;
+background:none;
+border:none;
+color:white;
+text-align:right;
+cursor:pointer;
+font-size:18px;
+">
+⚪ أبيض
+</button>
+
+<button onclick="blueTheme()" style="
+width:100%;
+padding:12px 30px;
+background:none;
+border:none;
+color:white;
+text-align:right;
+cursor:pointer;
+font-size:18px;
+">
+🔵 أزرق داكن
+</button>
+
+</div>
+
+<!-- حقوق النشر -->
+<div style="
+position:absolute;
+bottom:20px;
+width:100%;
+text-align:center;
+color:white;
+font-size:14px;
+">
+© جميع حقوق النشر محفوظة لدى الإسلامية
+</div>
+
 </div>
 
 <script>
@@ -163,6 +219,25 @@ x.style.display = "none";
 } else {
 x.style.display = "block";
 }
+}
+
+function toggleBackgrounds() {
+var x = document.getElementById("backgrounds");
+if (x.style.display === "block") {
+x.style.display = "none";
+} else {
+x.style.display = "block";
+}
+}
+
+function whiteTheme() {
+document.body.style.backgroundColor = "white";
+document.body.style.color = "black";
+}
+
+function blueTheme() {
+document.body.style.backgroundColor = "#2f3a56";
+document.body.style.color = "white";
 }
 </script>
 
