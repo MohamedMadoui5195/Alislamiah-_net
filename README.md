@@ -348,7 +348,7 @@ flex:none;
   <source src="IMG_20260514_215441_948.mp4" type="video/mp4">
 </video>
 
-<video controls width="300">
+<video controls width="100%">
 <source src="1000013030.mp4" type="video/mp4">
 </video>
 
