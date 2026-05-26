@@ -351,6 +351,26 @@ flex:none;
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
     الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية 
 
+<input type="text" id="search" placeholder="ابحث عن درس..." onkeyup="searchLessons()">
+
+<script>
+function searchLessons() {
+  let input = document.getElementById("search").value.toLowerCase();
+
+  let lessons = document.querySelectorAll("h2");
+
+  for (let i = 0; i < lessons.length; i++) {
+    let text = lessons[i].innerText.toLowerCase();
+
+    if (text.includes(input)) {
+      lessons[i].style.display = "";
+    } else {
+      lessons[i].style.display = "none";
+    }
+  }
+}
+</script>
+
 <div style="
 display:flex;
 justify-content:center;
@@ -629,25 +649,7 @@ startCounters();
 });
 </script>
 
-<input type="text" id="search" placeholder="Search...">
-<button onclick="searchSite()">Search 🔍</button>
 
-<script>
-function searchSite() {
-  let input = document.getElementById("search").value.toLowerCase();
-  let elements = document.querySelectorAll("h1, h2, h3, p, div");
-
-  for (let i = 0; i < elements.length; i++) {
-    let text = elements[i].innerText.toLowerCase();
-
-    if (text.includes(input)) {
-      elements[i].style.display = "";
-    } else {
-      elements[i].style.display = "none";
-    }
-  }
-}
-</script>
 
 <h2 id="lesson1">
 Lesson one: if conditional
