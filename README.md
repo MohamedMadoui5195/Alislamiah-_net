@@ -344,7 +344,9 @@ flex:none;
 
 </div>
 
-
+<video controls width="300">
+  <source src="1000013030.mp4" type="video/mp4">
+</video>
 
 <h1>مرحبا بكم في موقعي</h1>
 
