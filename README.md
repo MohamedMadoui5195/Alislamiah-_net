@@ -351,7 +351,7 @@ flex:none;
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
     الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية 
 
-<!-- زر فتح البحث من الأسفل -->
+<!-- زر البحث -->
 <button onclick="openSearch()" style="
 position:fixed;
 bottom:20px;
@@ -368,17 +368,19 @@ cursor:pointer;">
 🔍
 </button>
 
-<!-- صندوق البحث (يطلع من الأسفل) -->
+<!-- صندوق البحث -->
 <div id="searchBox" style="
 position:fixed;
-bottom:-300px;
+bottom:-400px;
 left:0;
 width:100%;
 background:white;
 box-shadow:0 -2px 10px rgba(0,0,0,0.3);
-padding:20px;
+padding:15px;
 transition:0.4s;
 z-index:999;
+max-height:70%;
+overflow:auto;
 ">
 
 <input type="text" id="search" placeholder="ابحث عن درس..." onkeyup="searchLessons()" style="
@@ -408,27 +410,38 @@ function openSearch() {
 }
 
 function closeSearch() {
-  document.getElementById("searchBox").style.bottom = "-300px";
+  document.getElementById("searchBox").style.bottom = "-400px";
   document.getElementById("results").innerHTML = "";
   document.getElementById("search").value = "";
 }
 
 function searchLessons() {
   let input = document.getElementById("search").value.toLowerCase();
-  let lessons = document.querySelectorAll("h2");
+  let lessons = document.querySelectorAll("h2, h3");
 
   let results = document.getElementById("results");
   results.innerHTML = "";
 
   for (let i = 0; i < lessons.length; i++) {
-    let text = lessons[i].innerText;
+    let title = lessons[i].innerText.toLowerCase();
 
-    if (text.toLowerCase().includes(input) && input !== "") {
-      let item = document.createElement("div");
-      item.innerHTML = "📚 " + text;
-      item.style.padding = "10px";
-      item.style.borderBottom = "1px solid #ddd";
-      results.appendChild(item);
+    if (title.includes(input) && input !== "") {
+
+      // نجيب الدرس كامل (العنوان + الفقرات اللي بعده)
+      let content = lessons[i].nextElementSibling;
+
+      let box = document.createElement("div");
+      box.style.padding = "10px";
+      box.style.borderBottom = "1px solid #ddd";
+
+      box.innerHTML = `
+        <b style="font-size:18px;">📚 ${lessons[i].innerText}</b>
+        <div style="font-size:14px;color:#333;margin-top:5px;">
+          ${content ? content.innerText.substring(0,200) + "..." : ""}
+        </div>
+      `;
+
+      results.appendChild(box);
     }
   }
 }
