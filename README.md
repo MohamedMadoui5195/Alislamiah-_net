@@ -344,13 +344,7 @@ flex:none;
 
 </div>
 
-<video controls width="100%">
-  <source src="1000013030.mp4" type="video/mp4">
-</video>
 
-<video controls width="100%">
-  <source src="1000013041.mp4" type="video/mp4">
-</video>
 
 <h1>مرحبا بكم في موقعي</h1>
 
