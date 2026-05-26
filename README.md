@@ -345,10 +345,11 @@ flex:none;
 </div>
 
 <video controls width="100%">
+  <video controls width="300">
   <source src="1000013030.mp4" type="video/mp4">
 </video>
 
-<video controls width="100%">
+<video controls width="300">
   <source src="1000013041.mp4" type="video/mp4">
 </video>
 
