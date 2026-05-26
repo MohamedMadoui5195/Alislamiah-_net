@@ -950,6 +950,12 @@ Regular verbs:
 verb + ed
 </p>
 
+<h2>PAST PERFECT</h2>
+
+<p>
+To form the past perfect: had + past participle
+</p>
+
 <h3>IRREGULAR VERBS</h3>
 
 <p>
