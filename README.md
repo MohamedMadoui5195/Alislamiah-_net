@@ -950,7 +950,7 @@ Regular verbs:
 verb + ed
 </p>
 
-<h1>IRREGULAR VERBS</h1>
+<h3>IRREGULAR VERBS</h3>
 
 <p>
 In the past simple and the past participle there are some irregular verbs such as:
