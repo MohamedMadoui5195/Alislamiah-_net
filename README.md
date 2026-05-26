@@ -351,21 +351,84 @@ flex:none;
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
     الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية 
 
-<input type="text" id="search" placeholder="ابحث عن درس..." onkeyup="searchLessons()">
+<!-- زر فتح البحث من الأسفل -->
+<button onclick="openSearch()" style="
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+border-radius:50%;
+background:#b30d3f;
+color:white;
+font-size:25px;
+border:none;
+z-index:1000;
+cursor:pointer;">
+🔍
+</button>
+
+<!-- صندوق البحث (يطلع من الأسفل) -->
+<div id="searchBox" style="
+position:fixed;
+bottom:-300px;
+left:0;
+width:100%;
+background:white;
+box-shadow:0 -2px 10px rgba(0,0,0,0.3);
+padding:20px;
+transition:0.4s;
+z-index:999;
+">
+
+<input type="text" id="search" placeholder="ابحث عن درس..." onkeyup="searchLessons()" style="
+width:100%;
+padding:10px;
+font-size:18px;
+">
+
+<div id="results"></div>
+
+<button onclick="closeSearch()" style="
+margin-top:10px;
+padding:10px;
+width:100%;
+background:#b30d3f;
+color:white;
+border:none;
+font-size:18px;">
+إغلاق
+</button>
+
+</div>
 
 <script>
+function openSearch() {
+  document.getElementById("searchBox").style.bottom = "0";
+}
+
+function closeSearch() {
+  document.getElementById("searchBox").style.bottom = "-300px";
+  document.getElementById("results").innerHTML = "";
+  document.getElementById("search").value = "";
+}
+
 function searchLessons() {
   let input = document.getElementById("search").value.toLowerCase();
-
   let lessons = document.querySelectorAll("h2");
 
-  for (let i = 0; i < lessons.length; i++) {
-    let text = lessons[i].innerText.toLowerCase();
+  let results = document.getElementById("results");
+  results.innerHTML = "";
 
-    if (text.includes(input)) {
-      lessons[i].style.display = "";
-    } else {
-      lessons[i].style.display = "none";
+  for (let i = 0; i < lessons.length; i++) {
+    let text = lessons[i].innerText;
+
+    if (text.toLowerCase().includes(input) && input !== "") {
+      let item = document.createElement("div");
+      item.innerHTML = "📚 " + text;
+      item.style.padding = "10px";
+      item.style.borderBottom = "1px solid #ddd";
+      results.appendChild(item);
     }
   }
 }
