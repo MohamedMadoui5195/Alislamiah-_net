@@ -950,6 +950,16 @@ Regular verbs:
 verb + ed
 </p>
 
+<h1>IRREGULAR VERBS</h1>
+
+<p>
+In the past simple and the past participle there are some irregular verbs such as:
+</p>
+
+<p>Write ✍️ → Wrote → Written</p>
+<p>Sleep → Slept → Slept</p>
+<p>Eat → Ate → Eaten</p>
+
 <h3>5. Present continuous</h3>
 
 <p>
