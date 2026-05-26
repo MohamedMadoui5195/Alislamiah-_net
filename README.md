@@ -351,7 +351,6 @@ flex:none;
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
     الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية 
 
-<!-- زر البحث -->
 <button onclick="openSearch()" style="
 position:fixed;
 bottom:20px;
@@ -364,11 +363,8 @@ color:white;
 font-size:25px;
 border:none;
 z-index:1000;
-cursor:pointer;">
-🔍
-</button>
+cursor:pointer;">🔍</button>
 
-<!-- صندوق البحث -->
 <div id="searchBox" style="
 position:fixed;
 bottom:-400px;
@@ -380,14 +376,12 @@ padding:15px;
 transition:0.4s;
 z-index:999;
 max-height:70%;
-overflow:auto;
-">
+overflow:auto;">
 
 <input type="text" id="search" placeholder="ابحث عن درس..." onkeyup="searchLessons()" style="
 width:100%;
 padding:10px;
-font-size:18px;
-">
+font-size:18px;">
 
 <div id="results"></div>
 
@@ -398,9 +392,7 @@ width:100%;
 background:#b30d3f;
 color:white;
 border:none;
-font-size:18px;">
-إغلاق
-</button>
+font-size:18px;">إغلاق</button>
 
 </div>
 
@@ -418,30 +410,27 @@ function closeSearch() {
 function searchLessons() {
   let input = document.getElementById("search").value.toLowerCase();
   let lessons = document.querySelectorAll("h2, h3");
-
   let results = document.getElementById("results");
+
   results.innerHTML = "";
 
   for (let i = 0; i < lessons.length; i++) {
-    let title = lessons[i].innerText.toLowerCase();
+    let text = lessons[i].innerText.toLowerCase();
 
-    if (title.includes(input) && input !== "") {
+    if (text.includes(input) && input !== "") {
 
-      // نجيب الدرس كامل (العنوان + الفقرات اللي بعده)
-      let content = lessons[i].nextElementSibling;
+      let item = document.createElement("div");
+      item.innerHTML = "📚 " + lessons[i].innerText;
+      item.style.padding = "10px";
+      item.style.borderBottom = "1px solid #ddd";
+      item.style.cursor = "pointer";
 
-      let box = document.createElement("div");
-      box.style.padding = "10px";
-      box.style.borderBottom = "1px solid #ddd";
+      item.onclick = function () {
+        lessons[i].scrollIntoView({behavior:"smooth"});
+        closeSearch();
+      };
 
-      box.innerHTML = `
-        <b style="font-size:18px;">📚 ${lessons[i].innerText}</b>
-        <div style="font-size:14px;color:#333;margin-top:5px;">
-          ${content ? content.innerText.substring(0,200) + "..." : ""}
-        </div>
-      `;
-
-      results.appendChild(box);
+      results.appendChild(item);
     }
   }
 }
