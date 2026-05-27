@@ -1,6 +1,14 @@
 <!DOCTYP
 
-<img src="icon.png" width="70">
+<!-- الصورة الثابتة -->
+<img src="icon.png" width="70"
+style="
+position:fixed;
+top:10px;
+left:10px;
+z-index:999;
+border-radius:15px;
+">
 
 <!-- مربع القائمة -->
 <div style="
@@ -241,13 +249,20 @@ document.body.style.color = "white";
 }
 </script>
 
+<!-- القائمة الأفقية الثابتة -->
 <div style="
+position:fixed;
+top:10px;
+right:10px;
+left:95px;
 display:flex;
 overflow-x:auto;
 white-space:nowrap;
 gap:10px;
 background:red;
 padding:15px;
+border-radius:15px;
+z-index:998;
 ">
 
 <button onclick="
@@ -344,7 +359,8 @@ flex:none;
 
 </div>
 
-
+<!-- حتى لا تغطي المحتوى -->
+<div style="padding-top:110px;">
 
 <h1>مرحبا بكم في موقعي</h1>
 
