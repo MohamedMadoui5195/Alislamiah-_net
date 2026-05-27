@@ -352,123 +352,111 @@ flex:none;
     الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية 
 
 <style>
-body{
-  padding-bottom:70px;
-}
-</style>
+body{padding-bottom:80px;}
 
-<!-- الشريط السفلي -->
-<div style="
+#bottomNav{
 position:fixed;
 bottom:0;
 left:0;
 width:100%;
-height:60px;
-background:white;
+height:65px;
+background:#fff;
 display:flex;
 justify-content:space-around;
 align-items:center;
 border-top:1px solid #ddd;
-z-index:5000;
-">
+z-index:1000;
+}
 
-<button onclick="window.scrollTo({top:0,behavior:'smooth'})"
-style="background:none;border:none;font-size:14px;cursor:pointer;">
-🏠<br>الرئيسية
-</button>
-
-<button onclick="toggleSearch()"
-style="background:none;border:none;font-size:14px;cursor:pointer;">
-🔍<br>البحث
-</button>
-
-<button onclick="showRating()"
-style="background:none;border:none;font-size:14px;cursor:pointer;">
-⭐<br>التقييم
-</button>
-
-</div>
-
-<!-- البحث -->
-<div id="searchBox" style="
+#searchBox,#ratingBox{
 display:none;
 position:fixed;
-bottom:70px;
+bottom:75px;
 left:10px;
 right:10px;
-background:white;
+background:#fff;
 padding:15px;
 border-radius:10px;
+z-index:2000;
 box-shadow:0 0 10px rgba(0,0,0,0.3);
-z-index:6000;
-">
+}
 
-<input type="text" id="searchInput"
-placeholder="ابحث عن درس..."
-onkeyup="searchLesson()"
-style="width:100%;padding:10px;font-size:16px;">
+#menu{
+z-index:99999 !important;
+position:fixed;
+}
 
-<div id="results"></div>
+.star{
+font-size:30px;
+cursor:pointer;
+color:#ccc;
+}
+.star.active{color:gold;}
+</style>
 
+<div id="bottomNav">
+<button onclick="window.scrollTo({top:0,behavior:'smooth'})">🏠</button>
+<button onclick="toggleSearch()">🔍</button>
+<button onclick="toggleRating()">⭐</button>
 </div>
 
-<!-- رسالة التقييم -->
-<div id="ratingMsg" style="
-position:fixed;
-bottom:80px;
-left:50%;
-transform:translateX(-50%);
-background:#333;
-color:white;
-padding:10px 20px;
-border-radius:20px;
-display:none;
-z-index:7000;
-">
-⭐ شكراً على التقييم
+<div id="searchBox">
+<input id="searchInput" onkeyup="searchLesson()" placeholder="بحث..." style="width:100%;padding:10px;">
+<div id="results"></div>
+</div>
+
+<div id="ratingBox">
+<p>التقييم:</p>
+<div id="stars">
+<span class="star">★</span>
+<span class="star">★</span>
+<span class="star">★</span>
+<span class="star">★</span>
+<span class="star">★</span>
+</div>
+<p id="ratingText">0/5</p>
 </div>
 
 <script>
 function toggleSearch(){
-  let box = document.getElementById("searchBox");
-  box.style.display = (box.style.display === "block") ? "none" : "block";
+document.getElementById("searchBox").style.display=
+document.getElementById("searchBox").style.display==="block"?"none":"block";
+}
+
+function toggleRating(){
+document.getElementById("ratingBox").style.display=
+document.getElementById("ratingBox").style.display==="block"?"none":"block";
 }
 
 function searchLesson(){
-  let input = document.getElementById('searchInput').value.toLowerCase();
-  let lessons = document.querySelectorAll('h2,h3');
-  let results = document.getElementById('results');
+let input=document.getElementById("searchInput").value.toLowerCase();
+let lessons=document.querySelectorAll("h2,h3");
+let results=document.getElementById("results");
+results.innerHTML="";
 
-  results.innerHTML = "";
-
-  for(let i=0;i<lessons.length;i++){
-    let text = lessons[i].innerText;
-
-    if(text.toLowerCase().includes(input) && input !== ""){
-      let item = document.createElement("div");
-      item.innerHTML = "📚 " + text;
-      item.style.padding = "10px";
-      item.style.borderBottom = "1px solid #ddd";
-      item.style.cursor = "pointer";
-
-      item.onclick = function(){
-        lessons[i].scrollIntoView({behavior:"smooth"});
-        document.getElementById("searchBox").style.display="none";
-      };
-
-      results.appendChild(item);
-    }
-  }
+lessons.forEach(el=>{
+if(el.innerText.toLowerCase().includes(input)&&input!==""){
+let d=document.createElement("div");
+d.innerText="📚 "+el.innerText;
+d.style.padding="10px";
+d.style.cursor="pointer";
+d.onclick=()=>el.scrollIntoView({behavior:"smooth"});
+results.appendChild(d);
+}
+});
 }
 
-function showRating(){
-  let msg = document.getElementById("ratingMsg");
-  msg.style.display = "block";
+let stars=document.querySelectorAll(".star");
+let rating=0;
 
-  setTimeout(()=>{
-    msg.style.display = "none";
-  },2000);
-}
+stars.forEach((s,i)=>{
+s.onclick=()=>{
+rating=i+1;
+localStorage.setItem("rating",rating);
+document.getElementById("ratingText").innerText=rating+"/5";
+stars.forEach((x,j)=>x.classList.toggle("active",j<rating));
+};
+});
 </script>
 
 <div style="
