@@ -1,16 +1,12 @@
 <!DOCTYP
 
-<!-- الصورة الثابتة -->
-<img src="icon.png" width="70"
-style="
-position:fixed;
-top:10px;
-left:10px;
-z-index:999;
-border-radius:15px;
-">
 
+<img src="icon.png" width="70"
+
+
+    
 <!-- مربع القائمة -->
+
 <div style="
 position:fixed;
 top:10px;
