@@ -1,6 +1,6 @@
 <!DOCTYP
 
-<img src="Icon.png" width="70">
+<img src="icon.png" width="70">
 
 <!-- مربع القائمة -->
 
