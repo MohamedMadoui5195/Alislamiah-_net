@@ -242,7 +242,6 @@ document.body.style.color = "white";
 }
 </script>
 
-<!-- القائمة الأفقية الثابتة -->
 <div style="
 position:fixed;
 top:10px;
@@ -351,9 +350,6 @@ flex:none;
 </button>
 
 </div>
-
-<!-- حتى لا تغطي المحتوى -->
-<div style="padding-top:110px;">
 
 <h1>مرحبا بكم في موقعي</h1>
 
