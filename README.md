@@ -351,88 +351,144 @@ flex:none;
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
     الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية 
 
-<button onclick="openSearch()" style="
+<div style="
 position:fixed;
-bottom:20px;
-right:20px;
-width:60px;
-height:60px;
-border-radius:50%;
-background:#b30d3f;
-color:white;
-font-size:25px;
-border:none;
-z-index:1000;
-cursor:pointer;">🔍</button>
-
-<div id="searchBox" style="
-position:fixed;
-bottom:-400px;
+bottom:0;
 left:0;
 width:100%;
+height:65px;
 background:white;
-box-shadow:0 -2px 10px rgba(0,0,0,0.3);
-padding:15px;
-transition:0.4s;
-z-index:999;
-max-height:70%;
-overflow:auto;">
+display:flex;
+justify-content:space-around;
+align-items:center;
+box-shadow:0 -2px 10px rgba(0,0,0,0.2);
+z-index:9999;
+">
 
-<input type="text" id="search" placeholder="ابحث عن درس..." onkeyup="searchLessons()" style="
+<button onclick="window.scrollTo({top:0,behavior:'smooth'})" style="
+background:none;
+border:none;
+font-size:16px;
+cursor:pointer;
+">
+🏠<br>الرئيسية
+</button>
+
+<button onclick="document.getElementById('searchBox').style.display='block'" style="
+background:none;
+border:none;
+font-size:16px;
+cursor:pointer;
+">
+🔍<br>البحث
+</button>
+
+<button onclick="alert('شكراً على التقييم ⭐')" style="
+background:none;
+border:none;
+font-size:16px;
+cursor:pointer;
+">
+⭐<br>التقييم
+</button>
+
+</div>
+
+<!-- نافذة البحث -->
+<div id="searchBox" style="
+display:none;
+position:fixed;
+top:20%;
+left:50%;
+transform:translateX(-50%);
+width:90%;
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(0,0,0,0.3);
+z-index:10000;
+">
+
+<input type="text"
+id="searchInput"
+placeholder="ابحث عن درس..."
+onkeyup="searchLesson()"
+style="
 width:100%;
-padding:10px;
-font-size:18px;">
+padding:12px;
+font-size:18px;
+margin-bottom:10px;
+">
 
 <div id="results"></div>
 
-<button onclick="closeSearch()" style="
-margin-top:10px;
-padding:10px;
+<button onclick="
+document.getElementById('searchBox').style.display='none'
+" style="
 width:100%;
+padding:10px;
 background:#b30d3f;
 color:white;
 border:none;
-font-size:18px;">إغلاق</button>
+font-size:18px;
+border-radius:10px;
+">
+إغلاق
+</button>
 
 </div>
 
 <script>
-function openSearch() {
-  document.getElementById("searchBox").style.bottom = "0";
+function searchLesson() {
+
+let input =
+document.getElementById('searchInput')
+.value.toLowerCase();
+
+let lessons =
+document.querySelectorAll('h2,h3');
+
+let results =
+document.getElementById('results');
+
+results.innerHTML = '';
+
+for(let i=0;i<lessons.length;i++){
+
+let text = lessons[i].innerText;
+
+if(text.toLowerCase().includes(input)
+&& input !== ''){
+
+let item =
+document.createElement('div');
+
+item.innerHTML = '📚 ' + text;
+
+item.style.padding = '10px';
+item.style.borderBottom =
+'1px solid #ddd';
+
+item.style.cursor = 'pointer';
+
+item.onclick = function(){
+
+lessons[i].scrollIntoView({
+behavior:'smooth'
+});
+
+document.getElementById(
+'searchBox'
+).style.display='none';
+
+};
+
+results.appendChild(item);
+
 }
 
-function closeSearch() {
-  document.getElementById("searchBox").style.bottom = "-400px";
-  document.getElementById("results").innerHTML = "";
-  document.getElementById("search").value = "";
 }
 
-function searchLessons() {
-  let input = document.getElementById("search").value.toLowerCase();
-  let lessons = document.querySelectorAll("h2, h3");
-  let results = document.getElementById("results");
-
-  results.innerHTML = "";
-
-  for (let i = 0; i < lessons.length; i++) {
-    let text = lessons[i].innerText.toLowerCase();
-
-    if (text.includes(input) && input !== "") {
-
-      let item = document.createElement("div");
-      item.innerHTML = "📚 " + lessons[i].innerText;
-      item.style.padding = "10px";
-      item.style.borderBottom = "1px solid #ddd";
-      item.style.cursor = "pointer";
-
-      item.onclick = function () {
-        lessons[i].scrollIntoView({behavior:"smooth"});
-        closeSearch();
-      };
-
-      results.appendChild(item);
-    }
-  }
 }
 </script>
 
