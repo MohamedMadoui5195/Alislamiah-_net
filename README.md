@@ -487,7 +487,12 @@ flex-wrap:wrap;
 نموذج 5
 </button>
 
-
+<video controls width="100%" style="
+border-radius:15px;
+margin-top:20px;
+">
+  <source src="1000013192.mp4" type="video/mp4">
+</video>
 
 </div>
 
