@@ -464,6 +464,22 @@ margin-top:20px;
   <source src="VID_20260528_110617_560.mp4" type="video/mp4">
 </video>
 
+<!-- الفيديو الثاني -->
+<video controls width="100%" style="
+border-radius:15px;
+margin-top:20px;
+">
+  <source src="IMG_20260526_063459_202.mp4" type="video/mp4">
+</video>
+
+<!-- الفيديو الثالث -->
+<video controls width="100%" style="
+border-radius:15px;
+margin-top:20px;
+">
+  <source src="IMG_20260526_070831_671.mp4" type="video/mp4">
+</video>
+
 <div style="
 display:flex;
 justify-content:center;
