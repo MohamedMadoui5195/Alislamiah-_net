@@ -457,6 +457,13 @@ stars.forEach((x,j)=>x.classList.toggle("active",j<rating));
 });
 </script>
 
+<video controls width="100%" style="
+border-radius:15px;
+margin-top:20px;
+">
+  <source src="VID_20260528_110617_560.mp4" type="video/mp4">
+</video>
+
 <div style="
 display:flex;
 justify-content:center;
@@ -486,13 +493,6 @@ flex-wrap:wrap;
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/Lys1Rk5MOW1sbGxmRXRzUTVjME5OUT09'">
 نموذج 5
 </button>
-
-<video controls width="100%" style="
-border-radius:15px;
-margin-top:20px;
-">
-  <source src="1000013192.mp4" type="video/mp4">
-</video>
 
 </div>
 
