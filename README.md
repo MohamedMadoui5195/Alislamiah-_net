@@ -343,6 +343,19 @@ cursor:pointer;
 
 </div>  
 
+<video controls width="100%" style="
+border-radius:15px;
+margin-top:20px;
+">
+  <source src="IMG_20260526_063459_202.mp4" type="video/mp4">
+</video>
+
+video c<ontrols width="100%" style="
+border-radius:15px;
+margin-top:20px;
+">
+  <source src="VID_20260528_110617_560.mp4" type="video/mp4">
+</video>
 
 <h1>مرحبا بكم في موقعي</h1>
 
@@ -457,28 +470,14 @@ stars.forEach((x,j)=>x.classList.toggle("active",j<rating));
 });
 </script>
 
-<video controls width="100%" style="
+video c<ontrols width="100%" style="
 border-radius:15px;
 margin-top:20px;
 ">
   <source src="VID_20260528_110617_560.mp4" type="video/mp4">
 </video>
 
-<!-- الفيديو الثاني -->
-<video controls width="100%" style="
-border-radius:15px;
-margin-top:20px;
-">
-  <source src="IMG_20260526_063459_202.mp4" type="video/mp4">
-</video>
 
-<!-- الفيديو الثالث -->
-<video controls width="100%" style="
-border-radius:15px;
-margin-top:20px;
-">
-  <source src="IMG_20260526_070831_671.mp4" type="video/mp4">
-</video>
 
 <div style="
 display:flex;
@@ -487,8 +486,6 @@ gap:10px;
 padding:15px;
 flex-wrap:wrap;
 ">
-
-
 
 <button onclick="window.location.href='https://www.dzexams.com/ar/annales/U0ZGY2VRekl4TG82UlhWZTc3NW93Zz09'">
 نموذج 1
