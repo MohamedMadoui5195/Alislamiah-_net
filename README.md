@@ -350,7 +350,7 @@ margin-top:20px;
   <source src="IMG_20260526_063459_202.mp4" type="video/mp4">
 </video>
 
-video c<ontrols width="100%" style="
+<video controls width="100%" style="
 border-radius:15px;
 margin-top:20px;
 ">
