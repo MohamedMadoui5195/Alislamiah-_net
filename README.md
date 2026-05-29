@@ -343,6 +343,8 @@ cursor:pointer;
 
 </div>  
 
+<div id="videos">
+
 <video controls width="100%" style="
 border-radius:15px;
 margin-top:20px;
@@ -360,9 +362,9 @@ margin-top:20px;
 <h1>مرحبا بكم في موقعي</h1>
 
 <p>أود أن أتفضل بالتعريف عن هذا الموقع: هذا موقع لعرض 
-    الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية 
+    الدروس الخصوصية و الدعم في مادة اللغة الإنجليزية لتلاميذ الباكالوريا 
 
-<style>
+    <style>
 body{padding-bottom:80px;}
 
 #bottomNav{
@@ -402,72 +404,150 @@ font-size:30px;
 cursor:pointer;
 color:#ccc;
 }
-.star.active{color:gold;}
+
+.star.active{
+color:gold;
+}
 </style>
 
 <div id="bottomNav">
-<button onclick="window.scrollTo({top:0,behavior:'smooth'})">🏠</button>
-<button onclick="toggleSearch()">🔍</button>
-<button onclick="toggleRating()">⭐</button>
+
+<button onclick="
+window.scrollTo({top:0,behavior:'smooth'})
+">
+🏠
+</button>
+
+<button onclick="toggleSearch()">
+🔍
+</button>
+
+<button onclick="toggleRating()">
+⭐
+</button>
+
+<button onclick="
+document.getElementById('videos').scrollIntoView({behavior:'smooth'});
+">
+🎥
+</button>
+
 </div>
 
 <div id="searchBox">
-<input id="searchInput" onkeyup="searchLesson()" placeholder="بحث..." style="width:100%;padding:10px;">
+
+<input id="searchInput"
+onkeyup="searchLesson()"
+placeholder="بحث..."
+style="width:100%;padding:10px;">
+
 <div id="results"></div>
+
 </div>
 
 <div id="ratingBox">
+
 <p>التقييم:</p>
+
 <div id="stars">
+
 <span class="star">★</span>
 <span class="star">★</span>
 <span class="star">★</span>
 <span class="star">★</span>
 <span class="star">★</span>
+
 </div>
+
 <p id="ratingText">0/5</p>
+
 </div>
 
 <script>
+
 function toggleSearch(){
+
 document.getElementById("searchBox").style.display=
-document.getElementById("searchBox").style.display==="block"?"none":"block";
+
+document.getElementById("searchBox").style.display==="block"
+
+? "none" : "block";
+
 }
 
 function toggleRating(){
+
 document.getElementById("ratingBox").style.display=
-document.getElementById("ratingBox").style.display==="block"?"none":"block";
+
+document.getElementById("ratingBox").style.display==="block"
+
+? "none" : "block";
+
 }
 
 function searchLesson(){
-let input=document.getElementById("searchInput").value.toLowerCase();
-let lessons=document.querySelectorAll("h2,h3");
-let results=document.getElementById("results");
+
+let input =
+document.getElementById("searchInput")
+.value.toLowerCase();
+
+let lessons =
+document.querySelectorAll("h2,h3");
+
+let results =
+document.getElementById("results");
+
 results.innerHTML="";
 
 lessons.forEach(el=>{
-if(el.innerText.toLowerCase().includes(input)&&input!==""){
+
+if(
+el.innerText.toLowerCase().includes(input)
+&& input!==""
+){
+
 let d=document.createElement("div");
+
 d.innerText="📚 "+el.innerText;
+
 d.style.padding="10px";
+
 d.style.cursor="pointer";
-d.onclick=()=>el.scrollIntoView({behavior:"smooth"});
+
+d.onclick=()=>
+el.scrollIntoView({behavior:"smooth"});
+
 results.appendChild(d);
+
 }
+
 });
+
 }
 
 let stars=document.querySelectorAll(".star");
+
 let rating=0;
 
 stars.forEach((s,i)=>{
+
 s.onclick=()=>{
+
 rating=i+1;
+
 localStorage.setItem("rating",rating);
-document.getElementById("ratingText").innerText=rating+"/5";
-stars.forEach((x,j)=>x.classList.toggle("active",j<rating));
+
+document.getElementById("ratingText")
+.innerText=rating+"/5";
+
+stars.forEach((x,j)=>
+x.classList.toggle("active",j<rating)
+);
+
 };
+
 });
+
 </script>
 
 video c<ontrols width="100%" style="
@@ -819,17 +899,17 @@ Lesson one: if conditional
 Despite and inspite of
 </h2>
 
-<h2>Lesson 2: Despite and Inspite of</h2>
+<h2>Lesson 2: Despite and In spite of</h2>
 
 <p>
-Despite and Inspite of mean:
+Despite and In spite of mean:
 (رغم / بالرغم من)
 </p>
 
 <h3>Rule:</h3>
 
 <p>
-After Despite / Inspite of, the verb becomes ING.
+After Despite / In spite of, the verb becomes ING.
 </p>
 
 <p>
@@ -855,7 +935,7 @@ Despite Algeria winning vs Argentina, Messi is number one.
 </p>
 
 <p>
-The same with Inspite of.
+The same with In spite of.
 </p>
 
 <h3>Similar words:</h3>
