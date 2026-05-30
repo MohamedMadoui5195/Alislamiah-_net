@@ -179,6 +179,8 @@ font-size:18px;
 🔵 أزرق داكن
 </button>
 
+
+
 </div>
 
 <!-- حقوق النشر -->
@@ -430,6 +432,12 @@ window.scrollTo({top:0,behavior:'smooth'})
 document.getElementById('videos').scrollIntoView({behavior:'smooth'});
 ">
 🎥فيديو
+</button>
+
+<button onclick="
+window.location.href='https://appsgeyser.io/19862944/Alislamiah';
+">
+📱 Alislamiah.App
 </button>
 
 </div>
