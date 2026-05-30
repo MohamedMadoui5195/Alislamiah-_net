@@ -437,7 +437,7 @@ document.getElementById('videos').scrollIntoView({behavior:'smooth'});
 <button onclick="
 window.location.href='https://appsgeyser.io/19862944/Alislamiah';
 ">
-📱 Alislamiah.App
+📱تطبيقنا
 </button>
 
 </div>
