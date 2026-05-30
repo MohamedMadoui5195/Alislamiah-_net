@@ -419,7 +419,7 @@ window.scrollTo({top:0,behavior:'smooth'})
 </button>
 
 <button onclick="toggleSearch()">
-🔍
+🔍البحث
 </button>
 
 <button onclick="toggleRating()">
