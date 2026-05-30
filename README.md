@@ -2,10 +2,6 @@
 
 <img src="icon.png" width="70">
 
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="mobile-web-app-capable" content="yes">
-<style>html,body{margin:0;padding:0;height:100%;overflow:hidden}</style>
-
 <!-- مربع القائمة -->
 
 <div style="
