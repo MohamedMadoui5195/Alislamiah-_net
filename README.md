@@ -415,7 +415,7 @@ color:gold;
 <button onclick="
 window.scrollTo({top:0,behavior:'smooth'})
 ">
-🏠
+🏠الرئيسية
 </button>
 
 <button onclick="toggleSearch()">
@@ -423,13 +423,13 @@ window.scrollTo({top:0,behavior:'smooth'})
 </button>
 
 <button onclick="toggleRating()">
-⭐
+⭐قيمنا
 </button>
 
 <button onclick="
 document.getElementById('videos').scrollIntoView({behavior:'smooth'});
 ">
-🎥
+🎥فيديو
 </button>
 
 </div>
