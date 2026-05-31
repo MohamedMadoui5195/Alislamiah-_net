@@ -698,47 +698,66 @@ Lesson 4
 
 </div>
 
-مادة إعلانية 
+<div style="
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+font-family:Arial;
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+text-align:center;
+">
 
 <div style="
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  min-height:100vh;
-  font-family:Arial;
-  background:linear-gradient(135deg,#0f172a,#1e293b);
-  color:white;
-  text-align:center;
-">  <div style="
-    background:rgba(255,255,255,0.06);
-    padding:30px;
-    border-radius:20px;
-    max-width:400px;
-    width:90%;
-    box-shadow:0 10px 30px rgba(0,0,0,0.4);
-    backdrop-filter:blur(10px);
-  "><h1 style="margin-bottom:10px; font-size:24px;">تحميل التطبيق</h1>
+background:rgba(255,255,255,0.06);
+padding:30px;
+border-radius:20px;
+max-width:450px;
+width:90%;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+">
 
-<p style="font-size:14px; opacity:0.8; margin-bottom:20px;">
-  اضغط على الزر لتحميل تطبيق Alislamiah وتثبيته على هاتفك
+<h1 style="
+margin-bottom:15px;
+font-size:28px;
+">
+تطبيق Alislamiah APK
+</h1>
+
+<p style="
+font-size:18px;
+line-height:1.8;
+margin-bottom:25px;
+">
+بإمكانكم تحميل تطبيق Alislamiah APK<br>
+على هواتفكم
 </p>
 
-<a href="APK_DIRECT_LINK_HERE" download
-   style="
-     display:inline-block;
-     padding:15px 25px;
-     background:#22c55e;
-     color:white;
-     text-decoration:none;
-     border-radius:12px;
-     font-size:16px;
-     font-weight:bold;
-   ">
-  تحميل APK مباشرة
-</a>
+<button onclick="window.location.href='https://drive.google.com/uc?export=download&id=15hOi8LjfDD9S1SXmFeA4IGVksbpbz3nD'"
+style="
+padding:15px 30px;
+background:#22c55e;
+color:white;
+border:none;
+border-radius:12px;
+font-size:18px;
+cursor:pointer;
+font-weight:bold;
+">
+تحميل التطبيق
+</button>
 
-<div style="margin-top:15px; font-size:12px; opacity:0.6;">
-  
+<div style="
+margin-top:30px;
+font-size:14px;
+opacity:0.8;
+">
+جميع الحقوق محفوظة لشبكة الإسلامية ©
+</div>
+
+</div>
+
 </div>
 
   </div></div>
