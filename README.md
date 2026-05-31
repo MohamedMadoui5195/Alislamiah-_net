@@ -283,17 +283,17 @@ flex:none;
 أزرق
 </button>
 
-<button onclick="  
-window.location.href='https://youtube.com/@alislamiah5195?si=9mSLKzXpiq_XVCTH 
-"  
-style="  
-min-width:100px;  
-background:none;  
-border:none;  
-color:white;  
-font-size:18px;  
-cursor:pointer;  
-flex:none;  
+<button onclick="
+window.location.href='https://youtube.com/@alislamiah5195?si=9mSLKzXpiq_XVCTN';
+" 
+style="
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
 ">
 يوتيوب
 </button>
