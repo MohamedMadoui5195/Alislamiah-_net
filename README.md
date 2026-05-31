@@ -698,6 +698,8 @@ Lesson 4
 
 </div>
 
+مادة إعلانية 
+
 <div style="
   display:flex;
   justify-content:center;
@@ -721,7 +723,7 @@ Lesson 4
   اضغط على الزر لتحميل تطبيق Alislamiah وتثبيته على هاتفك
 </p>
 
-<a href="https://appsgeyser.io/19862944/Alislamiah"
+<a href="APK_DIRECT_LINK_HERE" download
    style="
      display:inline-block;
      padding:15px 25px;
@@ -732,11 +734,11 @@ Lesson 4
      font-size:16px;
      font-weight:bold;
    ">
-  تحميل الآن
+  تحميل APK مباشرة
 </a>
 
 <div style="margin-top:15px; font-size:12px; opacity:0.6;">
-  فعل خيار التثبيت من مصادر غير معروفة
+  تأكد من تفعيل خيار التثبيت من مصادر غير معروفة
 </div>
 
   </div></div>
