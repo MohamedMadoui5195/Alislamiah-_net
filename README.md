@@ -434,12 +434,6 @@ document.getElementById('videos').scrollIntoView({behavior:'smooth'});
 🎥فيديو
 </button>
 
-<button onclick="
-window.location.href='https://appsgeyser.io/19862944/Alislamiah';
-">
-📱تطبيقنا
-</button>
-
 </div>
 
 <div id="searchBox">
@@ -703,6 +697,49 @@ Lesson 4
 </button>
 
 </div>
+
+<div style="
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  font-family:Arial;
+  background:linear-gradient(135deg,#0f172a,#1e293b);
+  color:white;
+  text-align:center;
+">  <div style="
+    background:rgba(255,255,255,0.06);
+    padding:30px;
+    border-radius:20px;
+    max-width:400px;
+    width:90%;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    backdrop-filter:blur(10px);
+  "><h1 style="margin-bottom:10px; font-size:24px;">تحميل التطبيق</h1>
+
+<p style="font-size:14px; opacity:0.8; margin-bottom:20px;">
+  اضغط على الزر لتحميل تطبيق Alislamiah وتثبيته على هاتفك
+</p>
+
+<a href="https://appsgeyser.io/19862944/Alislamiah"
+   style="
+     display:inline-block;
+     padding:15px 25px;
+     background:#22c55e;
+     color:white;
+     text-decoration:none;
+     border-radius:12px;
+     font-size:16px;
+     font-weight:bold;
+   ">
+  تحميل الآن
+</a>
+
+<div style="margin-top:15px; font-size:12px; opacity:0.6;">
+  فعل خيار التثبيت من مصادر غير معروفة
+</div>
+
+  </div></div>
 
 <div id="stats-box" style="
 background:#071a3d;
