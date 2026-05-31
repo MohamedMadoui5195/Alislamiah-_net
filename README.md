@@ -738,7 +738,7 @@ Lesson 4
 </a>
 
 <div style="margin-top:15px; font-size:12px; opacity:0.6;">
-  تأكد من تفعيل خيار التثبيت من مصادر غير معروفة
+  
 </div>
 
   </div></div>
