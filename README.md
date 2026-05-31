@@ -428,10 +428,8 @@ window.scrollTo({top:0,behavior:'smooth'})
 ⭐قيمنا
 </button>
 
-<button onclick="
-document.getElementById('videos').scrollIntoView({behavior:'smooth'});
-">
-🎥فيديو
+<button onclick="window.location.href='video.html'">
+🎥 فيديو
 </button>
 
 </div>
