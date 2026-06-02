@@ -45,172 +45,34 @@ justify-content:space-around;
 align-items:center;
 border-top:1px solid #ddd;
 z-index:1000;
+font-family:Arial;
 }
 
-#searchBox,#ratingBox{
-display:none;
-position:fixed;
-bottom:75px;
-left:10px;
-right:10px;
-background:#fff;
-padding:15px;
-border-radius:10px;
-z-index:2000;
-box-shadow:0 0 10px rgba(0,0,0,0.3);
-}
-
-#menu{
-z-index:99999 !important;
-position:fixed;
-}
-
-.star{
-font-size:30px;
+#bottomNav button{
+background:none;
+border:none;
+font-size:14px;
 cursor:pointer;
-color:#ccc;
-}
-
-.star.active{
-color:gold;
 }
 </style>
 
 <div id="bottomNav">
 
-<button onclick="
-window.scrollTo({top:0,behavior:'smooth'})
-">
-🏠الرئيسية
+<button onclick="window.location.href='https://mohamedmadoui5195.github.io/Alislamiah-_net/'">
+🏠 الرئيسية
 </button>
 
-<button onclick="toggleSearch()">
-🔍البحث
+<button onclick="window.location.href='https://mohamedmadoui5195.github.io/Alislamiah-_net/'">
+🔍 البحث
 </button>
 
-<button onclick="toggleRating()">
-⭐قيمنا
+<button onclick="window.location.href='https://mohamedmadoui5195.github.io/Alislamiah-_net/'">
+⭐ قيمنا
 </button>
 
-<button onclick="window.location.href='video.html'">
+<button onclick="location.href='video.html'">
 🎥 فيديو
 </button>
 
 </div>
-
-<div id="searchBox">
-
-<input id="searchInput"
-onkeyup="searchLesson()"
-placeholder="بحث..."
-style="width:100%;padding:10px;">
-
-<div id="results"></div>
-
-</div>
-
-<div id="ratingBox">
-
-<p>التقييم:</p>
-
-<div id="stars">
-
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-<span class="star">★</span>
-
-</div>
-
-<p id="ratingText">0/5</p>
-
-</div>
-
-<script>
-
-function toggleSearch(){
-
-document.getElementById("searchBox").style.display=
-
-document.getElementById("searchBox").style.display==="block"
-
-? "none" : "block";
-
-}
-
-function toggleRating(){
-
-document.getElementById("ratingBox").style.display=
-
-document.getElementById("ratingBox").style.display==="block"
-
-? "none" : "block";
-
-}
-
-function searchLesson(){
-
-let input =
-document.getElementById("searchInput")
-.value.toLowerCase();
-
-let lessons =
-document.querySelectorAll("h2,h3");
-
-let results =
-document.getElementById("results");
-
-results.innerHTML="";
-
-lessons.forEach(el=>{
-
-if(
-el.innerText.toLowerCase().includes(input)
-&& input!==""
-){
-
-let d=document.createElement("div");
-
-d.innerText="📚 "+el.innerText;
-
-d.style.padding="10px";
-
-d.style.cursor="pointer";
-
-d.onclick=()=>
-el.scrollIntoView({behavior:"smooth"});
-
-results.appendChild(d);
-
-}
-
-});
-
-}
-
-let stars=document.querySelectorAll(".star");
-
-let rating=0;
-
-stars.forEach((s,i)=>{
-
-s.onclick=()=>{
-
-rating=i+1;
-
-localStorage.setItem("rating",rating);
-
-document.getElementById("ratingText")
-.innerText=rating+"/5";
-
-stars.forEach((x,j)=>
-x.classList.toggle("active",j<rating)
-);
-
-};
-
-});
-
-</script>
 
