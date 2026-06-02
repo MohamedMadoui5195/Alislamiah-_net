@@ -2,6 +2,12 @@
 
 <img src="icon.png" width="70">
 
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+
 <!-- مربع القائمة -->
 
 <div style="
