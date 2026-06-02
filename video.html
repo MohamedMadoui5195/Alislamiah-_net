@@ -30,6 +30,131 @@ if ('serviceWorker' in navigator) {
 </div>
 
 
+<style>
+body{padding-bottom:80px;}
+
+#bottomNav{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+height:65px;
+background:#fff;
+display:flex;
+justify-content:space-around;
+align-items:center;
+border-top:1px solid #ddd;
+z-index:1000;
+}
+
+#searchBox,#ratingBox{
+display:none;
+position:fixed;
+bottom:75px;
+left:10px;
+right:10px;
+background:#fff;
+padding:15px;
+border-radius:10px;
+z-index:2000;
+box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+#menu{
+z-index:99999 !important;
+position:fixed;
+}
+
+.star{
+font-size:30px;
+cursor:pointer;
+color:#ccc;
+}
+
+.star.active{
+color:gold;
+}
+</style>
+
+<div id="bottomNav">
+
+<button onclick="
+window.scrollTo({top:0,behavior:'smooth'})
+">
+🏠الرئيسية
+</button>
+
+<button onclick="toggleSearch()">
+🔍البحث
+</button>
+
+<button onclick="toggleRating()">
+⭐قيمنا
+</button>
+
+<button onclick="window.location.href='video.html'">
+🎥 فيديو
+</button>
+
+</div>
+
+<div id="searchBox">
+
+<input id="searchInput"
+onkeyup="searchLesson()"
+placeholder="بحث..."
+style="width:100%;padding:10px;">
+
+<div id="results"></div>
+
+</div>
+
+<div id="ratingBox">
+
+<p>التقييم:</p>
+
+<div id="stars">
+
+<span class="star">★</span>
+<span class="star">★</span>
+<span class="star">★</span>
+<span class="star">★</span>
+<span class="star">★</span>
+
+</div>
+
+<p id="ratingText">0/5</p>
+
+</div>
+
+<script>
+
+function toggleSearch(){
+
+document.getElementById("searchBox").style.display=
+
+document.getElementById("searchBox").style.display==="block"
+
+? "none" : "block";
+
+}
+
+function toggleRating(){
+
+document.getElementById("ratingBox").style.display=
+
+document.getElementById("ratingBox").style.display==="block"
+
+? "none" : "block";
+
+}
+
+function searchLesson(){
+
+let input =
+document.getElementById("searchInput")
+.value.toLowerCase();
+
 let lessons =
 document.querySelectorAll("h2,h3");
 
@@ -87,4 +212,5 @@ x.classList.toggle("active",j<rating)
 
 });
 
-                               </script>
+</script>
+
