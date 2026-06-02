@@ -28,3 +28,63 @@ if ('serviceWorker' in navigator) {
 </video>
 
 </div>
+
+
+let lessons =
+document.querySelectorAll("h2,h3");
+
+let results =
+document.getElementById("results");
+
+results.innerHTML="";
+
+lessons.forEach(el=>{
+
+if(
+el.innerText.toLowerCase().includes(input)
+&& input!==""
+){
+
+let d=document.createElement("div");
+
+d.innerText="📚 "+el.innerText;
+
+d.style.padding="10px";
+
+d.style.cursor="pointer";
+
+d.onclick=()=>
+el.scrollIntoView({behavior:"smooth"});
+
+results.appendChild(d);
+
+}
+
+});
+
+}
+
+let stars=document.querySelectorAll(".star");
+
+let rating=0;
+
+stars.forEach((s,i)=>{
+
+s.onclick=()=>{
+
+rating=i+1;
+
+localStorage.setItem("rating",rating);
+
+document.getElementById("ratingText")
+.innerText=rating+"/5";
+
+stars.forEach((x,j)=>
+x.classList.toggle("active",j<rating)
+);
+
+};
+
+});
+
+                               </script>
