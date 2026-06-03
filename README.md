@@ -563,7 +563,41 @@ margin-top:20px;
   <source src="VID_20260528_110617_560.mp4" type="video/mp4">
 </video>
 
+<div style="
+display:flex;
+overflow-x:auto;
+white-space:nowrap;
+gap:10px;
+padding:10px;
+background:#f5f5f5;
+">
 
+<button onclick="window.open('https://www.dzexams.com/uploads/sujets/officiels/bac/2020/dzexams-bac-anglais-1829145.pdf','_blank')"
+style="padding:10px 20px;flex:none;">
+نموذج 1
+</button>
+
+<button onclick="window.open('https://www.dzexams.com/uploads/sujets/officiels/bac/2021/dzexams-bac-anglais-1402187.pdf','_blank')"
+style="padding:10px 20px;flex:none;">
+نموذج 2
+</button>
+
+<button onclick="window.open('https://www.dzexams.com/uploads/sujets/officiels/bac/2022/dzexams-bac-anglais-1632419.pdf','_blank')"
+style="padding:10px 20px;flex:none;">
+نموذج 3
+</button>
+
+<button onclick="window.open('https://www.dzexams.com/uploads/sujets/officiels/bac/2023/dzexams-bac-anglais-206010.pdf','_blank')"
+style="padding:10px 20px;flex:none;">
+نموذج 4
+</button>
+
+<button onclick="window.open('https://www.dzexams.com/uploads/sujets/officiels/bac/2024/dzexams-bac-anglais-1096571.pdf','_blank')"
+style="padding:10px 20px;flex:none;">
+نموذج 5
+</button>
+
+</div>
 
 <div style="
 display:flex;
