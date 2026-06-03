@@ -563,6 +563,8 @@ margin-top:20px;
   <source src="VID_20260528_110617_560.mp4" type="video/mp4">
 </video>
 
+<h2>نماذج شعبة آداب و فلسفة </h2>
+
 <div style="
 display:flex;
 overflow-x:auto;
@@ -599,6 +601,10 @@ style="padding:10px 20px;flex:none;">
 
 </div>
 
+
+<h2>شعبة العلوم التجريبية </h2>
+
+
 <div style="
 display:flex;
 justify-content:center;
@@ -628,6 +634,11 @@ flex-wrap:wrap;
 </button>
 
 </div>
+
+
+
+<h2>نماذج شعبة لغات أجنبية </h2>
+
 
 <div style="
 display:flex;
