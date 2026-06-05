@@ -242,13 +242,26 @@ x.style.display = "block";
 function whiteTheme() {
 document.body.style.backgroundColor = "white";
 document.body.style.color = "black";
+localStorage.setItem("theme","white");
 }
 
 function blueTheme() {
 document.body.style.backgroundColor = "#2f3a56";
 document.body.style.color = "white";
+localStorage.setItem("theme","blue");
 }
-</script>
+
+window.onload = function(){
+
+let theme = localStorage.getItem("theme");
+
+if(theme == "white"){
+whiteTheme();
+}else{
+blueTheme();
+}
+
+}
 
 <div style="  
 display:flex;  
