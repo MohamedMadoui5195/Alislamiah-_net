@@ -913,7 +913,7 @@ let y = setInterval(function(){
 yt += 20;
 
 if(yt >=  2500 أكثر من ){
-yt = 2520 أكثر من ;
+yt = 2500 أكثر من ;
 clearInterval(y);
 }
 
