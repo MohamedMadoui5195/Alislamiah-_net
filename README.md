@@ -912,8 +912,8 @@ let y = setInterval(function(){
 
 yt += 20;
 
-if(yt >= 2520){
-yt = 2520;
+if(yt >=  2500 أكثر من ){
+yt = 2520 أكثر من ;
 clearInterval(y);
 }
 
@@ -925,8 +925,8 @@ let t = setInterval(function(){
 
 tt += 2;
 
-if(tt >= 144){
-tt = 144;
+if(tt >= أكثر من 250){
+tt = أكثر من 250;
 clearInterval(t);
 }
 
