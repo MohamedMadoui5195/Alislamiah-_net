@@ -1,11 +1,15 @@
 <!DOCTYP
 
 <style>
-body{
-padding-top:70px;
-padding-bottom:120px;
+html,body{
 margin:0;
-box-sizing:border-box;
+padding:0;
+height:100%;
+}
+
+body{
+padding-top:env(safe-area-inset-top);
+padding-bottom:env(safe-area-inset-bottom);
 }
 </style>
 
