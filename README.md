@@ -1,5 +1,14 @@
 <!DOCTYP
 
+<style>
+body{
+padding-top:70px;
+padding-bottom:120px;
+margin:0;
+box-sizing:border-box;
+}
+</style>
+
 <img src="icon.png" width="70">
 
 <script>
