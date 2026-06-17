@@ -1,17 +1,4 @@
-<!DOCTYP
-
-<style>
-html,body{
-margin:0;
-padding:0;
-height:100%;
-}
-
-body{
-padding-top:env(safe-area-inset-top);
-padding-bottom:env(safe-area-inset-bottom);
-}
-</style>
+<!DOCTYP 
 
 <img src="icon.png" width="70">
 
