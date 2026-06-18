@@ -349,6 +349,21 @@ cursor:pointer;
 تيليجرام
 </button>
 
+<button onclick="
+window.location.href='video.html';
+"
+style="
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+فيديو الإسلامية 
+</button>
+
 </div>  
 
 <div id="videos">
