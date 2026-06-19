@@ -1323,70 +1323,60 @@ Was / Were + verb + ing
 
 <h1>Direct and Indirect Speech</h1>
 
-أي: الخطاب المباشر والخطاب غير المباشر.
+<p>أي: الخطاب المباشر والخطاب غير المباشر.</p>
 
 <h2>Direct Speech</h2>
 
-نقل الكلام كما هو.
+<p>نقل الكلام كما هو.</p>
 
-Example
+<p><b>Example</b></p>
 
-Nazim said: "I like playing football." ⚽
+<p>Nazim said: "I like playing football." ⚽</p>
 
 <h2>الأزمنة</h2>
 
-Present → Past
+<p><b>Present ➜ Past</b></p>
 
-Say / Says → Said
+<p>Say / Says ➜ Said</p>
 
-Like / Likes → Liked
+<p>Like / Likes ➜ Liked</p>
 
-Eat / Eats → Ate
+<p>Eat / Eats ➜ Ate</p>
 
 <h2>Indirect Speech</h2>
 
-نقل الكلام بصيغتنا نحن.
+<p>نقل الكلام بصيغتنا نحن.</p>
 
-Example
+<p><b>Example</b></p>
 
-Nazim said that he liked playing football. ⚽
+<p>Nazim said that he liked playing football. ⚽</p>
 
 <h2>ملاحظة ⚠️</h2>
 
-تغيير الضمائر حسب المعنى.
+<p><b>That</b></p>
 
-I → He / She
+<p>نضيف <b>that</b> (اختيارية في بعض الجمل).</p>
 
-We → They
+<p>نغير الضمائر حسب المعنى.</p>
 
-You → I / He / She / They
+<p>I ➜ He / She</p>
 
-إضافة
+<p>We ➜ They</p>
 
-That
+<p>You ➜ I / He / She / They</p>
 
-(اختيارية في بعض الجمل).
+<p>إذا كان فعل النقل في الماضي <b>said</b> فإن الفعل في المضارع يتحول إلى الماضي.</p>
 
-حذف
+<p>نحذف علامات التنصيص <b>" "</b>.</p>
 
-" "
+<h2>Example</h2>
 
-علامات التنصيص.
+<p><b>Direct Speech</b></p>
 
-إذا كان فعل النقل في الماضي
+<p>Nazim said: "I like playing football."</p>
 
-Said
+<p>⬇</p>
 
-فإن الفعل في المضارع يتحول إلى الماضي.
+<p><b>Indirect Speech</b></p>
 
-مثال:
-
-Direct Speech
-
-Nazim said: "I like playing football."
-
-↓
-
-Indirect Speech
-
-Nazim said that he liked playing football.
+<p>Nazim said that he liked playing football.</p>
