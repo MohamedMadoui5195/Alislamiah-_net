@@ -765,6 +765,19 @@ cursor:pointer;
 Lesson 4
 </button>
 
+<button onclick="document.getElementById('lesson5').scrollIntoView();"
+style="
+min-width:180px;
+color:white;
+background:none;
+border:none;
+font-size:18px;
+flex:none;
+cursor:pointer;
+">
+Lesson 5
+</button>
+
 </div>
 
 <div style="
@@ -1320,6 +1333,14 @@ To be + verb + ing
 <p>
 Was / Were + verb + ing
 </p>
+
+<div id="lesson5">
+
+<h1>Direct and Indirect Speech</h1>
+
+<!-- محتوى الدرس -->
+
+</div>
 
 <h1>Direct and Indirect Speech</h1>
 
