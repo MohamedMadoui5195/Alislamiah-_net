@@ -1320,3 +1320,60 @@ To be + verb + ing
 <p>
 Was / Were + verb + ing
 </p>
+
+<h1>Direct and Indirect Speech</h1>
+
+أي الخطاب المباشر والخطاب غير المباشر.
+
+<h2>Direct Speech</h2>
+
+نقل الكلام كما هو.
+
+Example
+
+<p><b>Nazim said:</b> "I like playing football." ⚽</p>
+
+<h2>الأزمنة</h2>
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse;text-align:center;width:100%;">
+<tr>
+<th>Present</th>
+<th>Past</th>
+</tr>
+
+<tr>
+<td>Say / Says</td>
+<td>Said</td>
+</tr>
+
+<tr>
+<td>Like / Likes</td>
+<td>Liked</td>
+</tr>
+
+<tr>
+<td>Eat / Eats</td>
+<td>Ate</td>
+</tr>
+
+</table>
+
+<br>
+
+<h2>Indirect Speech</h2>
+
+نقل الكلام بصيغتنا نحن.
+
+Example
+
+<p><b>Nazim said that he liked playing football.</b> ⚽</p>
+
+<h2>ملاحظة ⚠️</h2>
+
+<ul>
+<li>نحذف علامات التنصيص <b>" "</b>.</li>
+<li>نضيف <b>that</b> (اختيارية في بعض الجمل).</li>
+<li>إذا كان فعل النقل في الماضي <b>said</b> فإن المضارع يتحول إلى الماضي.</li>
+<li>نغير الضمائر حسب المعنى (I → He / She).</li>
+<li>إذا انتهى الفعل بـ <b>-ing</b> مثل <b>playing</b> فإنه يبقى كما هو.</li>
+</ul>
