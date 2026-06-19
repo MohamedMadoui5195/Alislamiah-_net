@@ -578,6 +578,10 @@ margin-top:20px;
   <source src="VID_20260528_110617_560.mp4" type="video/mp4">
 </video>
 
+<video controls width="100%" style="border-radius:12px;">
+    <source src="IMG_20260619_212338_416.mp4" type="video/mp4">
+</video>
+
 <h2>نماذج شعبة آداب و فلسفة </h2>
 
 <div style="
