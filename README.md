@@ -141,6 +141,11 @@ style="display:block;padding:12px 30px;color:white;text-decoration:none;">
 Tenses
 </a>
 
+<a href="#lesson5"
+style="display:block;padding:12px 30px;color:white;text-decoration:none;">
+Direct and Indirect Speech
+</a>
+
 </div>
 
 <!-- الخلفية -->
