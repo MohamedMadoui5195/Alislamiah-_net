@@ -940,8 +940,8 @@ let t = setInterval(function(){
 
 tt += 2;
 
-if(tt >= 260){
-tt = 260;
+if(tt >= 310){
+tt = 310;
 clearInterval(t);
 }
 
