@@ -370,7 +370,7 @@ flex:none;
 </button>
 
 <button onclick="
-window.location.href='index.html';
+window.location.href='varieties.html';
 "
 style="
 min-width:100px;
@@ -381,7 +381,7 @@ font-size:18px;
 cursor:pointer;
 flex:none;
 ">
-منوعات 
+📚 منوعات
 </button>
 
 </div>  
