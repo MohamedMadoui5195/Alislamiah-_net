@@ -4,72 +4,90 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>المصحف الشريف</title>
+
+<style>
+body { margin:0; overflow:hidden; }
+
+.page {
+  position:absolute;
+  top:0;
+  width:100%;
+  height:100%;
+  transition:transform 0.3s ease;
+}
+
+/* ترتيب الصفحات */
+#page1 { background:#fff; }
+#page2 { background:#f2f2f2; left:100%; }
+#page3 { background:#eaeaea; left:200%; }
+</style>
 </head>
 
-<body style="margin:0;">
+<body>
 
+<!-- زر القائمة -->
 <button id="menuBtn" style="
 position:fixed;
 top:10px;
 right:10px;
-background:rgba(0,0,0,.5);
-color:white;
-border:none;
-padding:10px 15px;
-border-radius:10px;
 z-index:10000;
-">
-☰ الرئيسية
-</button>
+padding:10px;
+background:rgba(0,0,0,.5);
+color:#fff;
+border:none;
+border-radius:10px;
+">☰</button>
 
-<div id="sidebar" style="
-display:none;
-position:fixed;
-top:0;
-right:0;
-width:250px;
-height:100%;
-background:white;
-padding:20px;
-z-index:9999;
-overflow:auto;
-">
+<!-- الصفحات -->
+<div id="container">
 
-<h2>القائمة</h2>
+<div class="page" id="page1">
+<img src="Screenshot_20260618-213953.jpg" style="width:100%;display:block;">
+</div>
 
-<button onclick="window.location.href='listen.html'">🎧 الاستماع</button>
-<br><br>
+<div class="page" id="page2">
+<img src="Screenshot_20260618-213957.jpg" style="width:100%;display:block;">
+</div>
 
-<button onclick="window.location.href='morning.html'">🌅 أذكار الصباح</button>
-<br><br>
-
-<button onclick="window.location.href='evening.html'">🌙 أذكار المساء</button>
-<br><br>
-
-<button onclick="window.location.href='tasbeeh.html'">🧮 السبحة</button>
-<br><br>
-
-<button onclick="window.location.href='khatm.html'">🤲 دعاء الختم</button>
-<br><br>
-
-<button onclick="window.location.href='https://youtube.com/@alislamiah5195'">
-📺 قناتنا
-</button>
+<div class="page" id="page3">
+<h2 style="text-align:center;">صفحة ثالثة</h2>
+</div>
 
 </div>
 
-<img src="Screenshot_20260618-213953.jpg"
-style="width:100%;display:block;">
-
-<img src="Screenshot_20260618-213957.jpg"
-style="width:100%;display:block;">
-
 <script>
-menuBtn.onclick=function(){
-sidebar.style.display=
-sidebar.style.display==="block"?"none":"block";
+let index = 0;
+const pages = document.querySelectorAll(".page");
+
+function update() {
+  pages.forEach((p,i)=>{
+    p.style.transform = `translateX(${(i - index) * 100}%)`;
+  });
 }
+update();
+
+/* السحب */
+let startX = 0;
+
+document.addEventListener("touchstart", e=>{
+  startX = e.touches[0].clientX;
+});
+
+document.addEventListener("touchend", e=>{
+  let endX = e.changedTouches[0].clientX;
+
+  if(startX - endX > 50) {
+    if(index < pages.length - 1) index++;
+  }
+
+  if(endX - startX > 50) {
+    if(index > 0) index--;
+  }
+
+  update();
+});
 </script>
 
 </body>
 </html>
+
