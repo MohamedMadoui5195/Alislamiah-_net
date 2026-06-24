@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>المصحف الشريف</title>
+</head>
 
+<body style="margin:0;">
+
+<button id="menuBtn" style="
+position:fixed;
+top:10px;
+right:10px;
+background:rgba(0,0,0,.5);
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:10px;
+z-index:10000;
+">
+☰ الرئيسية
+</button>
+
+<div id="sidebar" style="
+display:none;
+position:fixed;
+top:0;
+right:0;
+width:250px;
+height:100%;
+background:white;
+padding:20px;
+z-index:9999;
+overflow:auto;
+">
+
+<h2>القائمة</h2>
+
+<button onclick="window.location.href='listen.html'">🎧 الاستماع</button>
+<br><br>
+
+<button onclick="window.location.href='morning.html'">🌅 أذكار الصباح</button>
+<br><br>
+
+<button onclick="window.location.href='evening.html'">🌙 أذكار المساء</button>
+<br><br>
+
+<button onclick="window.location.href='tasbeeh.html'">🧮 السبحة</button>
+<br><br>
+
+<button onclick="window.location.href='khatm.html'">🤲 دعاء الختم</button>
+<br><br>
+
+<button onclick="window.location.href='https://youtube.com/@alislamiah5195'">
+📺 قناتنا
+</button>
+
+</div>
+
+<img src="Screenshot_20260618-213953.jpg"
+style="width:100%;display:block;">
+
+<img src="Screenshot_20260618-213957.jpg"
+style="width:100%;display:block;">
+
+<script>
+menuBtn.onclick=function(){
+sidebar.style.display=
+sidebar.style.display==="block"?"none":"block";
+}
+</script>
+
+</body>
+</html>
