@@ -174,7 +174,7 @@ text-align:right;
 cursor:pointer;
 font-size:18px;
 ">
-⚪ أبيض
+⚪ فاتح
 </button>
 
 <button onclick="blueTheme()" style="
@@ -187,7 +187,7 @@ text-align:right;
 cursor:pointer;
 font-size:18px;
 ">
-🔵 أزرق داكن
+🔵 داكن
 </button>
 
 
@@ -275,7 +275,7 @@ font-size:18px;
 cursor:pointer;  
 flex:none;  
 ">
-أبيض
+الخلفية الفاتحة
 </button>
 
 <button onclick="  
@@ -291,7 +291,7 @@ font-size:18px;
 cursor:pointer;  
 flex:none;  
 ">
-أزرق
+الخلفية الداكنة 
 </button>
 
 <button onclick="
