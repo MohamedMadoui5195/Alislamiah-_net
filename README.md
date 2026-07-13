@@ -2,19 +2,20 @@
 
 <img src="icon.png" width="70">
 
-<a href="https://www.youtube.com/watch?v=61m3KVZIjRk"
-   style="
-   display:inline-block;
-   background:#d50000;
-   color:white;
-   padding:12px 20px;
-   border-radius:10px;
-   text-decoration:none;
-   font-size:18px;
-   font-weight:bold;
-   text-align:center;">
-🔴 المباشر
-</a>
+<div style="width:100%; text-align:right; margin-top:40px; padding-right:20px;">
+    <a href="https://www.youtube.com/watch?v=61m3KVZIjRk"
+       style="
+       display:inline-block;
+       background:#d60000;
+       color:#fff;
+       text-decoration:none;
+       padding:10px 20px;
+       border-radius:12px;
+       font-size:20px;
+       font-weight:bold;">
+       مباشر
+    </a>
+</div>
 
 <script>
 if ('serviceWorker' in navigator) {
