@@ -2,6 +2,20 @@
 
 <img src="icon.png" width="70">
 
+<a href="https://www.youtube.com/watch?v=61m3KVZIjRk"
+   style="
+   display:inline-block;
+   background:#d50000;
+   color:white;
+   padding:12px 20px;
+   border-radius:10px;
+   text-decoration:none;
+   font-size:18px;
+   font-weight:bold;
+   text-align:center;">
+🔴 المباشر
+</a>
+
 <script>
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js');
