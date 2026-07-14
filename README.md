@@ -398,20 +398,7 @@ flex:none;
 📚 منوعات
 </button>
 
-<button onclick="
-window.location.href='Comunucation html';
-" 
-style="
-min-width:100px;
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-flex:none;
-">
-صفحة التواصل
-</button>
+
 
 <div id="videos">
 
