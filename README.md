@@ -398,9 +398,7 @@ flex:none;
 📚 منوعات
 </button>
 
-<button onclick="
-window.location.href='Communication.html';
-" 
+<button onclick="window.location.href='Comunucation.html';"
 style="
 min-width:100px;
 background:none;
