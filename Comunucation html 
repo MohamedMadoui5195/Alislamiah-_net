@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تواصل معنا</title>
+
+<style>
+body{
+    margin:0;
+    background:#0b2d5c;
+    font-family:Tahoma, Arial, sans-serif;
+    color:#fff;
+}
+
+.container{
+    max-width:700px;
+    margin:60px auto;
+    padding:25px;
+    text-align:center;
+}
+
+h1{
+    color:#ffffff;
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+p{
+    font-size:22px;
+    line-height:2;
+    margin:20px 0;
+    font-weight:normal;
+}
+
+.whatsapp{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 30px;
+    background:#25D366;
+    color:#fff;
+    text-decoration:none;
+    border-radius:10px;
+    font-size:22px;
+    transition:.3s;
+}
+
+.whatsapp:hover{
+    background:#1faa55;
+}
+
+.slogan{
+    margin-top:35px;
+    font-size:24px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>تواصل معنا</h1>
+
+<p>
+بإمكانكم التواصل معنا عبر الدخول إلى الحساب الشخصي في الواتساب (المدير العام لشبكة الإسلامية)
+</p>
+
+<p>
+Alislamiah Business
+</p>
+
+<a class="whatsapp" href="https://wa.me/213777543015" target="_blank">
+الدخول إلى حساب الواتساب
+</a>
+
+<div class="slogan">
+الإسلامية.. دائماً الأفضل
+</div>
+
+</div>
+
+</body>
+</html>
