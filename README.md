@@ -398,7 +398,7 @@ flex:none;
 📚 منوعات
 </button>
 
-
+</div>
 
 <div id="videos">
 
