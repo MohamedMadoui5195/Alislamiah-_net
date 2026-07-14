@@ -398,9 +398,7 @@ flex:none;
 📚 منوعات
 </button>
 
-<button onclick="
-window.location.href='Comunucation html';
-" 
+<button onclick="window.location.href='./Comunucation.html';"
 style="
 min-width:100px;
 background:none;
@@ -410,7 +408,7 @@ font-size:18px;
 cursor:pointer;
 flex:none;
 ">
-تواصل معنا 
+تواصل معنا
 </button>
 
 </div>
