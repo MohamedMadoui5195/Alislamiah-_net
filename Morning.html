@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>أذكار الصباح</title>
+
+<style>
+
+.card{
+width:94%;
+margin:20px auto;
+background:#fff9e9;
+border:2px solid #c8a54c;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
+
+.title{
+text-align:center;
+font-size:32px;
+font-weight:bold;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+.text{
+padding:25px;
+font-size:30px;
+line-height:2.1;
+text-align:center;
+color:#222;
+}
+
+.footer{
+background:#4b86eb;
+padding:18px;
+display:flex;
+justify-content:center;
+}
+
+.repeat{
+display:flex;
+align-items:center;
+gap:20px;
+font-size:34px;
+color:white;
+cursor:pointer;
+user-select:none;
+}
+
+.repeat span{
+width:52px;
+height:52px;
+background:white;
+color:#333;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+أذكار الصباح
+</div>
+
+<div class="toolbar">
+
+<button onclick="undo()">
+↩️ استرجاع
+</button>
+
+<button onclick="decreaseFont()">
+A-
+</button>
+
+<button onclick="increaseFont()">
+A+
+</button>
+
+</div>
+
+<!-- بطاقة آية الكرسي -->
+
+
+<div class="card" id="card1">
+
+<div class="zikr">
+
+<div class="title">
+آية الكرسي
+</div>
+
+<div class="text">
+
+أعوذ بالله من الشيطان الرجيم
+
+<br><br>
+
+بسم الله الرحمن الرحيم
+
+<br><br>
+
+الله لا إله إلا هو الحي القيوم لا تأخذه سنة ولا نوم له ما في السماوات وما في الأرض من ذا الذي يشفع عنده إلا بإذنه يعلم ما بين أيديهم وما خلفهم ولا يحيطون بشيء من علمه إلا بما شاء وسع كرسيه السماوات والأرض ولا يؤوده حفظهما وهو العلي العظيم
+
+</div>
+
+</div>
+
+<div class="footer">
+
+<div class="repeat" onclick="repeat(1)">
+تكرار
+<span id="count1">1</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- بطاقة سورة الإخلاص -->
+<div class="card" id="card2">
+
+<div class="card" id="card1">
+
+<div class="zikr">
+
+<div class="title">
+سورة الإخلاص
+</div>
+
+<div class="text">
+
+قل هو الله أحد1 الله الصمد2 لم يلد ولم يولد 3 ولم يكن له كفوا احد4 
+</div>
+
+<!-- بطاقة سورة الفلق -->
+<div class="card" id="card3">
+
+
+
+</div>
+
+<!-- بطاقة سورة الناس -->
+<div class="card" id="card4">
+
+<!-- هنا تلصق كود سورة الناس -->
+
+</div>
+
+<script>
+
+let history=[];
+
+function repeat(id){
+
+let c=document.getElementById("count"+id);
+
+let n=parseInt(c.innerText);
+
+if(n>0){
+
+history.push({
+id:id,
+count:n
+});
+
+n--;
+
+c.innerText=n;
+
+if(n==0){
+
+document.getElementById("card"+id).style.display="none";
+
+}
+
+}
+
+}
+
+function undo(){
+
+if(history.length==0)return;
+
+let last=history.pop();
+
+document.getElementById("card"+last.id).style.display="block";
+
+document.getElementById("count"+last.id).innerText=last.count;
+
+}
+
+</script>
+
+</body>
+
+</html>
