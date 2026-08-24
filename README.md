@@ -1,5 +1,13 @@
 <!DOCTYP 
 
+<div class="search-container" style="text-align: center; margin: 10px; padding: 5px;">
+    <form action="Alislamiah-AI/results.html" method="GET" style="display: flex; justify-content: center; gap: 5px;">
+        <input type="text" name="q" placeholder="ابحث هنا..." style="width: 70%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; font-family: inherit;" required>
+        <button type="submit" style="padding: 8px 15px; background-color: #d32f2f; color: white; border: none; border-radius: 5px; cursor: pointer;">بحث</button>
+    </form>
+</div>
+
+
 <img src="icon.png" width="70">
 
 <a href="https://youtu.be/cf-P6oIvwtY"
