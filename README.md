@@ -318,7 +318,9 @@ font-size:18px;
 cursor:pointer;
 flex:none;
 ">
-متصفحنا الجديد
+
+Alislamiah AI 
+
 </button>
 
 <button onclick="
