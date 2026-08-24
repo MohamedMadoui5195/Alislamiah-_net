@@ -1,11 +1,24 @@
 <!DOCTYP 
 
-<div class="search-container" style="text-align: center; margin: 10px; padding: 5px;">
-    <form action="Alislamiah-AI/results.html" method="GET" style="display: flex; justify-content: center; gap: 5px;">
-        <input type="text" name="q" placeholder="ابحث هنا..." style="width: 70%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; font-family: inherit;" required>
-        <button type="submit" style="padding: 8px 15px; background-color: #d32f2f; color: white; border: none; border-radius: 5px; cursor: pointer;">بحث</button>
+<!-- شريط البحث العلوي -->
+<div class="search-container" style="text-align: center; margin: 15px; padding: 5px; background-color: #f9f9f9; border-radius: 8px;">
+    <form onsubmit="redirectToResults(event)" style="display: flex; justify-content: center; gap: 5px;">
+        <input type="text" id="searchInput" placeholder="ابحث في التطبيق..." style="width: 70%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-family: inherit; font-size: 14px; outline: none;" required>
+        <button type="submit" style="padding: 10px 15px; background-color: #d32f2f; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: bold;">بحث</button>
     </form>
 </div>
+
+<!-- كود الجافاسكريبت الخاص بتوجيه البحث -->
+<script>
+function redirectToResults(event) {
+    event.preventDefault(); // منع إعادة تحميل الصفحة بالطريقة العادية
+    var query = document.getElementById('searchInput').value.trim();
+    if (query !== "") {
+        // التوجيه إلى رابط GitHub Pages الخاص بك مع إضافة الكلمة في نهاية المسار
+        window.location.href = "https://mohamedmadoui5195.github.io/Alislamiah-AI/results.html/" + encodeURIComponent(query);
+    }
+}
+</script>
 
 
 <img src="icon.png" width="70">
