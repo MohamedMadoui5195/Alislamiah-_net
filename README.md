@@ -1,28 +1,21 @@
 <!DOCTYP 
 
-<!-- مكان عرض كلمة البحث -->
-<div style="text-align: center; margin: 30px; font-family: inherit;">
-    <h2>نتائج البحث</h2>
-    <p id="searchResultText" style="font-size: 18px; color: #333; font-weight: bold;"></p>
+<!-- شريط البحث الموجه لصفحة النتائج -->
+<div style="text-align: center; margin: 15px; padding: 5px;">
+    <form onsubmit="goToResults(event)" style="display: flex; justify-content: center; gap: 5px;">
+        <input type="text" id="userInput" placeholder="اكتب للبحث..." style="width: 70%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px;" required>
+        <button type="submit" style="padding: 10px 15px; background-color: #d32f2f; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">بحث</button>
+    </form>
 </div>
 
-<!-- كود JavaScript لقراءة المتغير من الرابط -->
 <script>
-// دالة لجلب المتغيرات من الرابط (URL)
-function getQueryParameter(name) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(name);
-}
-
-// استخراج قيمة shortcut أو q من الرابط
-let searchQuery = getQueryParameter('shortcut') || getQueryParameter('q');
-
-// عرض النتيجة في الصفحة
-if (searchQuery) {
-    document.getElementById('searchResultText0').innerText = "نتائج البحث عن: " + decodeURIComponent(searchQuery);
-    // هنا تقدر تكمل كود البحث الخاص بك لعرض المحتوى الحقيقي
-} else {
-    document.getElementById('searchResultText').innerText = "لم تقم بإدخال كلمة للبحث.";
+function goToResults(event) {
+    event.preventDefault(); // منع إعادة تحميل الصفحة العادية
+    var text = document.getElementById('userInput').value.trim();
+    if (text !== "") {
+        // الانتقال تماماً بالشكل الذي طلبته مع تمرير الكلمة في الـ shortcut
+        window.location.href = "https://mohmedmadoui5195.github.io/Alislamiah-AI/results.html?shortcut=" + encodeURIComponent(text);
+    }
 }
 </script>
 
