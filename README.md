@@ -1,24 +1,31 @@
 <!DOCTYP 
 
-<!-- شريط البحث العلوي -->
-<div class="search-container" style="text-align: center; margin: 15px; padding: 5px; background-color: #f9f9f9; border-radius: 8px;">
-    <form onsubmit="redirectToResults(event)" style="display: flex; justify-content: center; gap: 5px;">
-        <input type="text" id="searchInput" placeholder="ابحث في التطبيق..." style="width: 70%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-family: inherit; font-size: 14px; outline: none;" required>
-        <button type="submit" style="padding: 10px 15px; background-color: #d32f2f; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; font-weight: bold;">بحث</button>
-    </form>
+<!-- مكان عرض كلمة البحث -->
+<div style="text-align: center; margin: 30px; font-family: inherit;">
+    <h2>نتائج البحث</h2>
+    <p id="searchResultText" style="font-size: 18px; color: #333; font-weight: bold;"></p>
 </div>
 
-<!-- كود الجافاسكريبت الخاص بتوجيه البحث -->
+<!-- كود JavaScript لقراءة المتغير من الرابط -->
 <script>
-function redirectToResults(event) {
-    event.preventDefault(); // منع إعادة تحميل الصفحة بالطريقة العادية
-    var query = document.getElementById('searchInput').value.trim();
-    if (query !== "") {
-        // التوجيه إلى رابط GitHub Pages الخاص بك مع إضافة الكلمة في نهاية المسار
-        window.location.href = "https://mohamedmadoui5195.github.io/Alislamiah-AI/results.html/";
-    }
+// دالة لجلب المتغيرات من الرابط (URL)
+function getQueryParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+
+// استخراج قيمة shortcut أو q من الرابط
+let searchQuery = getQueryParameter('shortcut') || getQueryParameter('q');
+
+// عرض النتيجة في الصفحة
+if (searchQuery) {
+    document.getElementById('searchResultText0').innerText = "نتائج البحث عن: " + decodeURIComponent(searchQuery);
+    // هنا تقدر تكمل كود البحث الخاص بك لعرض المحتوى الحقيقي
+} else {
+    document.getElementById('searchResultText').innerText = "لم تقم بإدخال كلمة للبحث.";
 }
 </script>
+
 
 
 <img src="icon.png" width="70">
