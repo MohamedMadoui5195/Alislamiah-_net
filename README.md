@@ -15,7 +15,7 @@ function redirectToResults(event) {
     var query = document.getElementById('searchInput').value.trim();
     if (query !== "") {
         // التوجيه إلى رابط GitHub Pages الخاص بك مع إضافة الكلمة في نهاية المسار
-        window.location.href = "https://mohamedmadoui5195.github.io/Alislamiah-AI/results.html/" + encodeURIComponent(query);
+        window.location.href = "https://mohamedmadoui5195.github.io/Alislamiah-AI/results.html/";
     }
 }
 </script>
