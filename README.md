@@ -323,7 +323,7 @@ Alislamiah AI
 
 </button>
 
-<button onclick="window.location.href='Alislamiah-_store.html'"
+<button onclick="window.location.href='Alislamiah-_Store.html'"
 style="
 min-width:100px;
 background:none;
