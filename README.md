@@ -204,6 +204,10 @@ font-size:18px;
 🔵 داكن
 </button>
 
+
+
+</div>
+
 <button onclick="window.location.href='programes.html'" style="
 width:100%;
 padding:12px 30px;
@@ -216,10 +220,6 @@ font-size:18px;
 ">
 برامجنا
 </button>
-
-
-
-</div>
 
 <!-- حقوق النشر -->
 <div style="
