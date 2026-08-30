@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alislamiah - البرامج</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #07152f;
+            color: white;
+            min-height: 100vh;
+        }
+
+        /* الهيدر */
+        header {
+            padding: 25px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #0b2045, #102f63);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: #b9c9e5;
+            font-size: 16px;
+        }
+
+        /* المحتوى */
+        .container {
+            width: 92%;
+            max-width: 1000px;
+            margin: 35px auto;
+        }
+
+        .programs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+            gap: 22px;
+        }
+
+        /* بطاقة البرنامج */
+        .program {
+            background: linear-gradient(145deg, #0d2348, #091a38);
+            border: 1px solid rgba(255,255,255,0.09);
+            border-radius: 22px;
+            padding: 25px;
+            box-shadow: 0 12px 35px rgba(0,0,0,0.3);
+            transition: 0.3s ease;
+        }
+
+        .program:hover {
+            transform: translateY(-6px);
+            border-color: rgba(255,255,255,0.2);
+            box-shadow: 0 18px 40px rgba(0,0,0,0.4);
+        }
+
+        .icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 18px;
+            background: #122f61;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin-bottom: 18px;
+        }
+
+        .program h2 {
+            font-size: 21px;
+            margin-bottom: 10px;
+        }
+
+        .program p {
+            color: #aebed9;
+            line-height: 1.7;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        /* زر المشاهدة */
+        .watch {
+            display: block;
+            width: 100%;
+            padding: 13px;
+            text-align: center;
+            border-radius: 12px;
+            background: white;
+            color: #07152f;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.25s;
+        }
+
+        .watch:hover {
+            background: #dce8ff;
+            transform: scale(1.02);
+        }
+
+        /* الفوتر */
+        footer {
+            text-align: center;
+            color: #7185a8;
+            padding: 30px 15px;
+            margin-top: 30px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 26px;
+            }
+
+            .programs {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📺 البرامج</h1>
+    <p>اكتشف برامج Alislamiah وشاهد حلقاتها</p>
+</header>
+
+<div class="container">
+
+    <div class="programs">
+
+        <!-- البرنامج الأول -->
+        <div class="program">
+
+            <div class="icon">🎬</div>
+
+            <h2>إنمي هل لك سر عند الله</h2>
+
+            <p>
+                برنامج إنمي هادف يقدم محتوى مميزًا بأسلوب قصصي ومؤثر.
+            </p>
+
+            <a
+                href="https://youtube.com/playlist?list=PLIWjYSe2TROs&si=jNjDrcPJMo7ir5-X"
+                target="_blank"
+                class="watch">
+                ▶ مشاهدة البرنامج
+            </a>
+
+        </div>
+
+
+        <!-- البرنامج الثاني -->
+        <div class="program">
+
+            <div class="icon">📖</div>
+
+            <h2>برنامج قصص</h2>
+
+            <p>
+                مجموعة من القصص والحكايات الهادفة والمميزة.
+            </p>
+
+            <a
+                href="https://youtube.com/playlist?list=PLTPjDtk9qR9BvLRyOxRUW8ludYTmiOSRb&si=WX2f-X8bAFEgH-s2"
+                target="_blank"
+                class="watch">
+                ▶ مشاهدة البرنامج
+            </a>
+
+        </div>
+
+
+        <!-- البرنامج الثالث -->
+        <div class="program">
+
+            <div class="icon">💡</div>
+
+            <h2>برنامج معلومات عن</h2>
+
+            <p>
+                معلومات وحقائق متنوعة بطريقة بسيطة وممتعة.
+            </p>
+
+            <a
+                href="https://youtube.com/playlist?list=PLTPjDtk9qR9BRHP02uql5w6CQQ4vAKOGe&si=KKbHBc8-N1eyRUbC"
+                target="_blank"
+                class="watch">
+                ▶ مشاهدة البرنامج
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Alislamiah — جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
