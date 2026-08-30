@@ -323,7 +323,7 @@ Alislamiah AI
 
 </button>
 
-<button onclick="window.location.href='Alislamiah-_Store.html'"
+<button onclick="window.location.href='store.html'"
 style="
 min-width:100px;
 background:none;
@@ -335,6 +335,8 @@ flex:none;
 ">
 Alislamiah store
 </button>
+
+
 
 <button onclick="
 window.location.href='https://youtube.com/@alislamiah5195?si=9mSLKzXpiq_XVCTN';
