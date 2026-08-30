@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alislamiah Store</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #07152f, #0d2348, #07152f);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 700px;
+            text-align: center;
+            padding: 55px 30px;
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 28px;
+            background: rgba(255,255,255,0.06);
+            backdrop-filter: blur(15px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+        }
+
+        .logo {
+            width: 85px;
+            height: 85px;
+            margin: 0 auto 25px;
+            border-radius: 22px;
+            background: linear-gradient(145deg, #163b78, #0a1d3d);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 34px;
+            margin-bottom: 18px;
+            letter-spacing: 0.5px;
+        }
+
+        .welcome {
+            font-size: 21px;
+            color: #dce7ff;
+            margin-bottom: 35px;
+            line-height: 1.8;
+        }
+
+        .description {
+            color: #aebfdd;
+            font-size: 16px;
+            margin-bottom: 35px;
+        }
+
+        .store-btn {
+            display: inline-block;
+            padding: 16px 35px;
+            border-radius: 14px;
+            background: #ffffff;
+            color: #07152f;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s ease;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        .store-btn:hover {
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 14px 35px rgba(0,0,0,0.4);
+            background: #eaf1ff;
+        }
+
+        .footer {
+            margin-top: 35px;
+            font-size: 13px;
+            color: #8295b7;
+        }
+
+        @media (max-width: 500px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            h1 {
+                font-size: 27px;
+            }
+
+            .welcome {
+                font-size: 18px;
+            }
+
+            .store-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="logo">
+            <img src="icon.png" alt="Alislamiah Store Icon" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+
+        <h1>Alislamiah-_store</h1>
+
+        <p class="welcome">
+            مرحباً بك في متجر تطبيقات الإسلامية
+        </p>
+
+        <p class="description">
+            اكتشف تطبيقات الإسلامية واستمتع بتجربة رقمية مميزة.
+        </p>
+
+        <a href="Alislamiah-_Store.html" class="store-btn">
+            فتح Alislamiah Store
+        </a>
+
+        <div class="footer">
+            © 2026 Alislamiah
+        </div>
+
+    </div>
+
+</body>
+</html>
