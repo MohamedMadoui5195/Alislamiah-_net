@@ -204,6 +204,19 @@ font-size:18px;
 🔵 داكن
 </button>
 
+<button onclick="window.location.href='programes.html'" style="
+width:100%;
+padding:12px 30px;
+background:none;
+border:none;
+color:white;
+text-align:right;
+cursor:pointer;
+font-size:18px;
+">
+برامجنا
+</button>
+
 
 
 </div>
