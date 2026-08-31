@@ -1,5 +1,9 @@
 <!DOCTYP
 
+<head>
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
+
 <img src="icon.png" width="70">
 
 <a href="https://youtu.be/cf-P6oIvwtY"
