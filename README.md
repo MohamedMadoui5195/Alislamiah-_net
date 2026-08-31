@@ -441,6 +441,19 @@ flex:none;
 📚 منوعات
 </button>
 
+<button onclick="window.location.href='programes.html'"
+style="
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+الإسلامية برامج 
+</button>
+
 <button onclick="window.location.href='comunucation.html';"
 style="
 min-width:100px;
