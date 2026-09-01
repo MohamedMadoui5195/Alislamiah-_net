@@ -247,6 +247,108 @@
     </div>
 
 
+<!-- زر الانتقال إلى Alislamiah -->
+
+<a id="alislamiahButton"
+   href="https://mohamedmadoui5195.github.io/Alislamiah-_net/"
+   class="alislamiah-button">
+
+    الانتقال إلى Alislamiah
+
+</a>
+
+
+<style>
+
+.alislamiah-button {
+
+    position: fixed;
+
+    bottom: 25px;
+    left: 50%;
+
+    transform: translateX(-50%) translateY(40px);
+
+    width: calc(100% - 40px);
+    max-width: 420px;
+
+    padding: 16px 25px;
+
+    background: linear-gradient(
+        135deg,
+        #123b78,
+        #071d42
+    );
+
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    border-radius: 16px;
+
+    border: 1px solid rgba(255,255,255,0.15);
+
+    box-shadow:
+        0 12px 35px rgba(0,0,0,0.45);
+
+    z-index: 9999;
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition:
+        opacity 0.6s ease,
+        transform 0.6s ease;
+
+}
+
+
+/* عندما يظهر الزر */
+
+.alislamiah-button.show {
+
+    opacity: 1;
+
+    pointer-events: auto;
+
+    transform:
+        translateX(-50%)
+        translateY(0);
+
+}
+
+
+/* عند الضغط */
+
+.alislamiah-button:active {
+
+    transform:
+        translateX(-50%)
+        scale(0.96);
+
+}
+
+</style>
+
+
+<script>
+
+setTimeout(function() {
+
+    document
+        .getElementById("alislamiahButton")
+        .classList.add("show");
+
+}, 5000);
+
+</script>
+
+
 </body>
 
 </html>
