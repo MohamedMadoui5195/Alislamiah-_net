@@ -2,7 +2,8 @@ const CACHE_NAME = 'alislamiah-v1';
 
 const urlsToCache = [
   '/',
-  '/index.html'
+  '/README.md',
+'/video.html'
 ];
 
 self.addEventListener('install', event => {
