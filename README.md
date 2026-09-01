@@ -325,6 +325,19 @@ flex:none;
 الخلفية الداكنة 
 </button>
 
+<button onclick="window.location.href='about.html'"
+style="
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+Alislamiah عن
+</button>
+
 <button onclick="window.location.href='teleport.html'"
 style="
 min-width:100px;
