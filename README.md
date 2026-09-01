@@ -225,6 +225,20 @@ font-size:18px;
 برامجنا▼
 </button>
 
+<button onclick="window.location.href='about.html'" style="
+width:100%;
+padding:12px 30px;
+background:none;
+border:none;
+color:white;
+text-align:right;
+cursor:pointer;
+font-size:18px;
+">
+عن التطبيق▼
+</button>
+
+
 <!-- حقوق النشر -->
 <div style="
 position:absolute;
@@ -293,7 +307,24 @@ white-space:nowrap;
 gap:10px;  
 background:red;  
 padding:15px;  
-">  <button onclick="  
+"> 
+
+<button onclick="
+window.location.href='about.html';
+"
+style="
+min-width:100px;
+background:none;
+border:none;
+color:white;
+font-size:18px;
+cursor:pointer;
+flex:none;
+">
+عن التطبيق 
+</button>
+
+ <button onclick="  
 document.body.style.background='white';  
 document.body.style.color='black';  
 "  
